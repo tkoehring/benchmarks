@@ -1,0 +1,1218 @@
+0	-1	7f86c5113740[1869893]	1	0.000046	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	411	Entering MPIR_Typerep_init
+0	-1	7f86c5113740[1869893]	2	0.000237	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	439	Leaving MPIR_Typerep_init
+0	-1	7f86c5113740[1869893]	1	0.078133	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	360	Entering MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	2	0.078177	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	362	Leaving MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	1	0.078188	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	360	Entering MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	2	0.078195	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	362	Leaving MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	1	0.078203	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	360	Entering MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	2	0.078210	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	362	Leaving MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	1	0.078217	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	360	Entering MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	2	0.078224	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	362	Leaving MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	1	0.078231	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	360	Entering MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	2	0.078238	src/mpi/datatype/typerep/src/typerep_yaksa_create.c	362	Leaving MPIR_Typerep_create_pairtype
+0	-1	7f86c5113740[1869893]	1	0.078264	src/mpid/ch4/src/ch4_init.c	320	Entering MPID_Init
+0	-1	7f86c5113740[1869893]	1	0.078289	src/mpid/ch4/src/ch4_init.c	193	Entering choose_netmod
+0	-1	7f86c5113740[1869893]	2	0.078298	src/mpid/ch4/src/ch4_init.c	216	Leaving choose_netmod
+0	-1	7f86c5113740[1869893]	1	0.081266	src/mpid/ch4/src/ch4r_proc.c	159	Entering MPIDIU_avt_init
+0	-1	7f86c5113740[1869893]	2	0.081305	src/mpid/ch4/src/ch4r_proc.c	182	Leaving MPIDIU_avt_init
+0	-1	7f86c5113740[1869893]	1	0.081326	src/mpid/ch4/generic/am/mpidig_am_init.c	123	Entering MPIDIG_am_init
+0	-1	7f86c5113740[1869893]	1	0.081334	src/mpid/common/genq/mpidu_genq_private_pool.c	53	Entering MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	2	0.081343	src/mpid/common/genq/mpidu_genq_private_pool.c	74	Leaving MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	1	0.081351	src/mpid/common/genq/mpidu_genq_private_pool.c	53	Entering MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	2	0.081358	src/mpid/common/genq/mpidu_genq_private_pool.c	74	Leaving MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	1	0.081365	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081373	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081380	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081387	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081394	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081401	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081410	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081418	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081425	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081432	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081440	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081447	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081455	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081462	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081492	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081501	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081508	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081515	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081524	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081531	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081539	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081546	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081554	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081562	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081569	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081576	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081584	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081592	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081599	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081607	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081615	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081623	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081630	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081638	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081646	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081653	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081661	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081668	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081676	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081684	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081692	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081699	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081708	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081715	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081722	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081729	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081737	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081745	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081753	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081760	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081768	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081784	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081792	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081799	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081807	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081815	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081822	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081830	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081838	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081846	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081853	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081860	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081868	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081876	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081883	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081891	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081899	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081906	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081915	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081922	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081930	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081938	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.081947	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081954	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.081973	src/mpid/ch4/generic/am/mpidig_am_init.c	210	Leaving MPIDIG_am_init
+0	-1	7f86c5113740[1869893]	1	0.082000	src/mpid/common/genq/mpidu_genq_private_pool.c	53	Entering MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	2	0.082008	src/mpid/common/genq/mpidu_genq_private_pool.c	74	Leaving MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	1	0.082017	src/mpid/ch4/shm/posix/posix_init.c	64	Entering choose_posix_eager
+0	-1	7f86c5113740[1869893]	2	0.082025	src/mpid/ch4/shm/posix/posix_init.c	87	Leaving choose_posix_eager
+0	-1	7f86c5113740[1869893]	1	0.082036	src/mpid/ch4/shm/src/shm_control.c	11	Entering MPIDI_SHMI_ctrl_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.082045	src/mpid/ch4/shm/src/shm_control.c	15	Leaving MPIDI_SHMI_ctrl_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.082053	src/mpid/ch4/shm/src/shm_control.c	11	Entering MPIDI_SHMI_ctrl_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.082061	src/mpid/ch4/shm/src/shm_control.c	15	Leaving MPIDI_SHMI_ctrl_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.082102	src/mpid/common/genq/mpidu_genq_private_pool.c	53	Entering MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	2	0.082115	src/mpid/common/genq/mpidu_genq_private_pool.c	74	Leaving MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	4	0.088074	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088106	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088115	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088139	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088147	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088155	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088163	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088172	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088180	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088188	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088196	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088204	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088212	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088220	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088227	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088236	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp;ofi_rxm
+0	-1	7f86c5113740[1869893]	4	0.088244	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP;ofi_rxd
+0	-1	7f86c5113740[1869893]	4	0.088253	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP;ofi_rxd
+0	-1	7f86c5113740[1869893]	4	0.088262	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP;ofi_rxd
+0	-1	7f86c5113740[1869893]	4	0.088270	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP;ofi_rxd
+0	-1	7f86c5113740[1869893]	4	0.088279	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: shm
+0	-1	7f86c5113740[1869893]	4	0.088287	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: shm
+0	-1	7f86c5113740[1869893]	4	0.088295	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP
+0	-1	7f86c5113740[1869893]	4	0.088303	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088311	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP
+0	-1	7f86c5113740[1869893]	4	0.088319	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088326	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP
+0	-1	7f86c5113740[1869893]	4	0.088334	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088342	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: UDP
+0	-1	7f86c5113740[1869893]	4	0.088349	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088357	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp
+0	-1	7f86c5113740[1869893]	4	0.088365	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088373	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp
+0	-1	7f86c5113740[1869893]	4	0.088381	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088389	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp
+0	-1	7f86c5113740[1869893]	4	0.088396	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088405	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: tcp
+0	-1	7f86c5113740[1869893]	4	0.088412	src/mpid/ch4/netmod/ofi/init_settings.c	286	provider failed minimal setting enable_am
+0	-1	7f86c5113740[1869893]	4	0.088420	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088429	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088437	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088452	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088460	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088469	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088477	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088485	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088493	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088502	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088510	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	4	0.088518	src/mpid/ch4/netmod/ofi/init_settings.c	269	Provider name: sockets
+0	-1	7f86c5113740[1869893]	1	0.088922	src/mpi/info/info_impl.c	183	Entering MPIR_Info_set_impl
+0	-1	7f86c5113740[1869893]	2	0.088941	src/mpi/info/info_impl.c	218	Leaving MPIR_Info_set_impl
+0	-1	7f86c5113740[1869893]	1	0.088950	src/mpi/info/info_impl.c	183	Entering MPIR_Info_set_impl
+0	-1	7f86c5113740[1869893]	2	0.088959	src/mpi/info/info_impl.c	218	Leaving MPIR_Info_set_impl
+0	-1	7f86c5113740[1869893]	1	0.089000	src/mpid/ch4/netmod/ofi/ofi_init.c	974	Entering create_vni_context
+0	-1	7f86c5113740[1869893]	2	0.090067	src/mpid/ch4/netmod/ofi/ofi_init.c	1104	Leaving create_vni_context
+0	-1	7f86c5113740[1869893]	1	0.101480	src/mpid/common/genq/mpidu_genq_private_pool.c	53	Entering MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	2	0.101503	src/mpid/common/genq/mpidu_genq_private_pool.c	74	Leaving MPIDU_genq_private_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	1	0.101512	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.101521	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	1	0.101529	src/mpid/ch4/generic/am/mpidig_am_init.c	112	Entering MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.101537	src/mpid/ch4/generic/am/mpidig_am_init.c	117	Leaving MPIDIG_am_reg_cb
+0	-1	7f86c5113740[1869893]	2	0.102244	src/mpid/ch4/src/ch4_init.c	465	Leaving MPID_Init
+0	-1	7f86c5113740[1869893]	1	0.102261	src/mpi/comm/commutil.c	686	Entering MPIR_Comm_commit
+0	-1	7f86c5113740[1869893]	1	0.102268	src/mpi/comm/commutil.c	506	Entering MPIR_Comm_commit_internal
+0	-1	7f86c5113740[1869893]	1	0.102273	src/mpid/ch4/src/ch4_comm.c	140	Entering MPID_Comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.102280	src/mpid/ch4/src/ch4r_proc.c	130	Entering MPIDIU_avt_add_ref
+0	-1	7f86c5113740[1869893]	4	0.102287	src/mpid/ch4/src/ch4r_proc.c	132	 incr avtid=0
+0	-1	7f86c5113740[1869893]	2	0.102292	src/mpid/ch4/src/ch4r_proc.c	135	Leaving MPIDIU_avt_add_ref
+0	-1	7f86c5113740[1869893]	1	0.102297	src/mpid/common/shm/mpidu_init_shm.c	120	Entering MPIDU_Init_shm_init
+0	-1	7f86c5113740[1869893]	1	0.104026	src/mpid/common/shm/mpidu_init_shm.c	70	Entering Init_shm_barrier_init
+0	-1	7f86c5113740[1869893]	2	0.104039	src/mpid/common/shm/mpidu_init_shm.c	80	Leaving Init_shm_barrier_init
+0	-1	7f86c5113740[1869893]	1	0.104045	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104055	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104061	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104085	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104091	src/mpid/common/shm/mpidu_init_shm.c	213	Leaving MPIDU_Init_shm_init
+0	-1	7f86c5113740[1869893]	1	0.104097	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_init.c	43	Entering MPIDI_POSIX_iqueue_init
+0	-1	7f86c5113740[1869893]	1	0.104104	src/mpid/common/genq/mpidu_genq_shmem_pool.c	63	Entering MPIDU_genq_shmem_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	1	0.104110	src/mpid/common/shm/mpidu_init_shm_alloc.c	54	Entering MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.104127	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104133	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104193	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104199	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104205	src/mpid/common/shm/mpidu_init_shm.c	296	Entering MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	2	0.104210	src/mpid/common/shm/mpidu_init_shm.c	301	Leaving MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	1	0.104231	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104237	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104242	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104247	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104253	src/mpid/common/shm/mpidu_init_shm_alloc.c	207	Entering check_alloc
+0	-1	7f86c5113740[1869893]	1	0.104259	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104263	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104299	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104306	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104311	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.104317	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	1	0.104323	src/mpid/common/shm/mpidu_init_shm.c	268	Entering MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	2	0.104329	src/mpid/common/shm/mpidu_init_shm.c	273	Leaving MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	1	0.104335	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104340	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104345	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.104352	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.104358	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.104364	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.104369	src/mpid/common/shm/mpidu_init_shm_alloc.c	239	Leaving check_alloc
+0	-1	7f86c5113740[1869893]	2	0.104375	src/mpid/common/shm/mpidu_init_shm_alloc.c	133	Leaving MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.104382	src/mpid/common/genq/mpidu_genq_shmem_queue.c	14	Entering MPIDU_genq_shmem_queue_init
+0	-1	7f86c5113740[1869893]	2	0.104391	src/mpid/common/genq/mpidu_genq_shmem_queue.c	29	Leaving MPIDU_genq_shmem_queue_init
+0	-1	7f86c5113740[1869893]	1	0.104408	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104415	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104426	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104432	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104442	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104448	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104457	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104474	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104485	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104491	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104501	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104507	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104516	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104522	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104532	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104537	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104548	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104554	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104563	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104569	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104579	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104584	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104594	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104600	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104610	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104617	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104627	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104632	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104642	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104648	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104658	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104663	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104674	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104680	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104690	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104697	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104710	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104716	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104725	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104737	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104747	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104753	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104763	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104769	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104778	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104784	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104794	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104799	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104808	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104814	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104823	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104830	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104839	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104845	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104854	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104860	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104870	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104877	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104888	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104894	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104903	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104909	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104919	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104924	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104938	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104944	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104954	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104960	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104970	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104975	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.104990	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.104996	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105006	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105012	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105021	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105027	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105037	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105043	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105052	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105057	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105067	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105073	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105082	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105088	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105098	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105103	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105112	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105118	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105128	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105134	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105143	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105149	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105162	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105169	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105178	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105184	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105193	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105200	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105209	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105215	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105225	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105231	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105245	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105251	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105261	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105266	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105277	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105283	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105292	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105298	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105307	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105313	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105322	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105328	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105337	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105343	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105353	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105359	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105369	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105374	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105388	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105393	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105404	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105409	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105419	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105425	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105434	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.105440	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	1	0.105446	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105451	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105470	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105476	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105482	src/mpid/common/genq/mpidu_genq_shmem_pool.c	102	Leaving MPIDU_genq_shmem_pool_create_unsafe
+0	-1	7f86c5113740[1869893]	1	0.105488	src/mpid/common/shm/mpidu_init_shm_alloc.c	54	Entering MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.105499	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105505	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105546	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105553	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105559	src/mpid/common/shm/mpidu_init_shm.c	296	Entering MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	2	0.105564	src/mpid/common/shm/mpidu_init_shm.c	301	Leaving MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	1	0.105583	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105590	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105595	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105601	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105606	src/mpid/common/shm/mpidu_init_shm_alloc.c	207	Entering check_alloc
+0	-1	7f86c5113740[1869893]	1	0.105611	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105617	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105644	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105650	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105656	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.105662	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	1	0.105668	src/mpid/common/shm/mpidu_init_shm.c	268	Entering MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	2	0.105673	src/mpid/common/shm/mpidu_init_shm.c	273	Leaving MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	1	0.105679	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105685	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105690	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105696	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105701	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.105707	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.105712	src/mpid/common/shm/mpidu_init_shm_alloc.c	239	Leaving check_alloc
+0	-1	7f86c5113740[1869893]	2	0.105718	src/mpid/common/shm/mpidu_init_shm_alloc.c	133	Leaving MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.105723	src/mpid/common/genq/mpidu_genq_shmem_queue.c	14	Entering MPIDU_genq_shmem_queue_init
+0	-1	7f86c5113740[1869893]	2	0.105733	src/mpid/common/genq/mpidu_genq_shmem_queue.c	29	Leaving MPIDU_genq_shmem_queue_init
+0	-1	7f86c5113740[1869893]	1	0.105739	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105744	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105750	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105756	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105761	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_init.c	79	Leaving MPIDI_POSIX_iqueue_init
+0	-1	7f86c5113740[1869893]	1	0.105766	src/mpid/ch4/shm/posix/posix_init.c	232	Entering MPIDI_POSIX_coll_init
+0	-1	7f86c5113740[1869893]	1	0.105867	src/mpid/common/shm/mpidu_init_shm_alloc.c	54	Entering MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.105876	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105882	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105943	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105950	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105955	src/mpid/common/shm/mpidu_init_shm.c	296	Entering MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	2	0.105961	src/mpid/common/shm/mpidu_init_shm.c	301	Leaving MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	1	0.105983	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.105989	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.105994	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106000	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106005	src/mpid/common/shm/mpidu_init_shm_alloc.c	207	Entering check_alloc
+0	-1	7f86c5113740[1869893]	1	0.106010	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106015	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106042	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106048	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106054	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.106059	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	1	0.106065	src/mpid/common/shm/mpidu_init_shm.c	268	Entering MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	2	0.106071	src/mpid/common/shm/mpidu_init_shm.c	273	Leaving MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	1	0.106076	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106081	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106087	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106093	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106098	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.106104	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.106109	src/mpid/common/shm/mpidu_init_shm_alloc.c	239	Leaving check_alloc
+0	-1	7f86c5113740[1869893]	2	0.106115	src/mpid/common/shm/mpidu_init_shm_alloc.c	133	Leaving MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.106120	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106125	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106133	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106139	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106148	src/mpid/ch4/shm/posix/posix_init.c	257	Leaving MPIDI_POSIX_coll_init
+0	-1	7f86c5113740[1869893]	1	0.106157	src/mpid/common/shm/mpidu_init_shm_alloc.c	54	Entering MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.106164	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106169	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106211	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106217	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106223	src/mpid/common/shm/mpidu_init_shm.c	296	Entering MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	2	0.106229	src/mpid/common/shm/mpidu_init_shm.c	301	Leaving MPIDU_Init_shm_query
+0	-1	7f86c5113740[1869893]	1	0.106246	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106258	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106263	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106269	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106274	src/mpid/common/shm/mpidu_init_shm_alloc.c	207	Entering check_alloc
+0	-1	7f86c5113740[1869893]	1	0.106279	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106284	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106310	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106316	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106322	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.106327	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	1	0.106333	src/mpid/common/shm/mpidu_init_shm.c	268	Entering MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	2	0.106338	src/mpid/common/shm/mpidu_init_shm.c	273	Leaving MPIDU_Init_shm_put
+0	-1	7f86c5113740[1869893]	1	0.106344	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106349	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106355	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.106361	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.106367	src/mpid/common/shm/mpidu_init_shm.c	282	Entering MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.106372	src/mpid/common/shm/mpidu_init_shm.c	287	Leaving MPIDU_Init_shm_get
+0	-1	7f86c5113740[1869893]	2	0.106378	src/mpid/common/shm/mpidu_init_shm_alloc.c	239	Leaving check_alloc
+0	-1	7f86c5113740[1869893]	2	0.106383	src/mpid/common/shm/mpidu_init_shm_alloc.c	133	Leaving MPIDU_Init_shm_alloc
+0	-1	7f86c5113740[1869893]	1	0.107728	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.107754	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.107762	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.107767	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.107778	src/mpid/common/shm/mpidu_init_shm.c	255	Entering MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.107783	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.107791	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	-1	7f86c5113740[1869893]	2	0.107797	src/mpid/common/shm/mpidu_init_shm.c	259	Leaving MPIDU_Init_shm_barrier
+0	-1	7f86c5113740[1869893]	1	0.107803	src/mpid/common/shm/mpidu_init_shm_alloc.c	151	Entering MPIDU_Init_shm_free
+0	-1	7f86c5113740[1869893]	2	0.107847	src/mpid/common/shm/mpidu_init_shm_alloc.c	176	Leaving MPIDU_Init_shm_free
+0	-1	7f86c5113740[1869893]	1	0.107856	src/mpid/ch4/src/ch4r_init.c	13	Entering MPIDIG_init_comm
+0	-1	7f86c5113740[1869893]	2	0.107863	src/mpid/ch4/src/ch4r_init.c	28	Leaving MPIDIG_init_comm
+0	-1	7f86c5113740[1869893]	1	0.107869	src/mpid/ch4/netmod/ofi/ofi_comm.c	121	Entering MPIDI_OFI_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.107875	src/mpid/ch4/netmod/ofi/ofi_comm.c	159	Leaving MPIDI_OFI_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.107882	src/mpid/ch4/shm/src/shm_hooks.c	15	Entering MPIDI_SHM_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.107887	src/mpid/ch4/shm/posix/posix_comm.c	13	Entering MPIDI_POSIX_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.107893	src/mpid/ch4/shm/posix/release_gather/release_gather.c	148	Entering MPIDI_POSIX_mpi_release_gather_comm_init_null
+0	-1	7f86c5113740[1869893]	2	0.107912	src/mpid/ch4/shm/posix/release_gather/release_gather.c	172	Leaving MPIDI_POSIX_mpi_release_gather_comm_init_null
+0	-1	7f86c5113740[1869893]	2	0.107919	src/mpid/ch4/shm/posix/posix_comm.c	22	Leaving MPIDI_POSIX_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.107925	src/mpid/ch4/shm/src/shm_hooks.c	19	Leaving MPIDI_SHM_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.107930	src/mpid/ch4/src/ch4_comm.c	206	Leaving MPID_Comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.107936	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.107942	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.107948	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.107955	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	-1	7f86c5113740[1869893]	2	0.107960	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.107966	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.107972	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.107979	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.107985	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.107991	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.107997	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=1, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.108002	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108008	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.108013	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108019	src/mpi/comm/commutil.c	436	Entering MPIR_Comm_map_free
+0	-1	7f86c5113740[1869893]	2	0.108025	src/mpi/comm/commutil.c	447	Leaving MPIR_Comm_map_free
+0	-1	7f86c5113740[1869893]	2	0.108030	src/mpi/comm/commutil.c	518	Leaving MPIR_Comm_commit_internal
+0	-1	7f86c5113740[1869893]	1	0.108036	src/mpi/comm/commutil.c	531	Entering MPIR_Comm_create_subcomms
+0	-1	7f86c5113740[1869893]	1	0.108042	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108047	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108053	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108059	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=1, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.108064	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108070	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.108075	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108081	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108087	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108092	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108098	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	-1	7f86c5113740[1869893]	2	0.108103	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108109	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.108114	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108120	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108126	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108132	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108138	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=1, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.108149	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108155	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.108161	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108167	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108173	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108179	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108184	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	-1	7f86c5113740[1869893]	2	0.108190	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108195	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.108201	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108206	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108211	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108217	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108223	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=1, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.108228	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108234	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.108240	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.108245	src/mpi/comm/commutil.c	280	Entering MPIR_Comm_create
+0	-1	7f86c5113740[1869893]	2	0.108260	src/mpi/comm/commutil.c	296	Leaving MPIR_Comm_create
+0	-1	7f86c5113740[1869893]	1	0.108267	src/mpi/comm/commutil.c	366	Entering MPIR_Comm_map_irregular
+0	-1	7f86c5113740[1869893]	2	0.108273	src/mpi/comm/commutil.c	395	Leaving MPIR_Comm_map_irregular
+0	-1	7f86c5113740[1869893]	1	0.108279	src/mpi/comm/commutil.c	506	Entering MPIR_Comm_commit_internal
+0	-1	7f86c5113740[1869893]	1	0.108285	src/mpid/ch4/src/ch4_comm.c	140	Entering MPID_Comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.108290	src/mpid/ch4/src/ch4i_comm.c	738	Entering MPIDI_comm_create_rank_map
+0	-1	7f86c5113740[1869893]	1	0.108296	src/mpid/ch4/src/ch4i_comm.c	40	Entering map_size
+0	-1	7f86c5113740[1869893]	2	0.108302	src/mpid/ch4/src/ch4i_comm.c	49	Leaving map_size
+0	-1	7f86c5113740[1869893]	8	0.108309	src/mpid/ch4/src/ch4i_comm.c	775	 intra->intra, L2L, size=2, total_mapper_size=2, mapper_offset=0
+0	-1	7f86c5113740[1869893]	1	0.108314	src/mpid/ch4/src/ch4i_comm.c	670	Entering set_map
+0	-1	7f86c5113740[1869893]	1	0.108320	src/mpid/ch4/src/ch4i_comm.c	59	Entering detect_regular_model
+0	-1	7f86c5113740[1869893]	8	0.108326	src/mpid/ch4/src/ch4i_comm.c	67		detect model: offset 0
+0	-1	7f86c5113740[1869893]	8	0.108332	src/mpid/ch4/src/ch4i_comm.c	77		detect model: blocksize 2
+0	-1	7f86c5113740[1869893]	2	0.108337	src/mpid/ch4/src/ch4i_comm.c	108	Leaving detect_regular_model
+0	-1	7f86c5113740[1869893]	8	0.108343	src/mpid/ch4/src/ch4i_comm.c	686		detected mode: 1
+0	-1	7f86c5113740[1869893]	1	0.108349	src/mpid/ch4/src/ch4i_comm.c	329	Entering direct_of_src_rmap
+0	-1	7f86c5113740[1869893]	1	0.108355	src/mpid/ch4/src/ch4i_comm.c	40	Entering map_size
+0	-1	7f86c5113740[1869893]	2	0.108361	src/mpid/ch4/src/ch4i_comm.c	49	Leaving map_size
+0	-1	7f86c5113740[1869893]	8	0.108368	src/mpid/ch4/src/ch4i_comm.c	338	 source mode 1
+0	-1	7f86c5113740[1869893]	2	0.108373	src/mpid/ch4/src/ch4i_comm.c	375	Leaving direct_of_src_rmap
+0	-1	7f86c5113740[1869893]	2	0.108379	src/mpid/ch4/src/ch4i_comm.c	726	Leaving set_map
+0	-1	7f86c5113740[1869893]	1	0.108384	src/mpid/ch4/src/ch4i_comm.c	40	Entering map_size
+0	-1	7f86c5113740[1869893]	2	0.108390	src/mpid/ch4/src/ch4i_comm.c	49	Leaving map_size
+0	-1	7f86c5113740[1869893]	1	0.108396	src/mpid/ch4/src/ch4i_comm.c	545	Entering check_convert_mlut_to_lut
+0	-1	7f86c5113740[1869893]	2	0.108409	src/mpid/ch4/src/ch4i_comm.c	580	Leaving check_convert_mlut_to_lut
+0	-1	7f86c5113740[1869893]	1	0.108414	src/mpid/ch4/src/ch4i_comm.c	592	Entering check_convert_lut_to_regular
+0	-1	7f86c5113740[1869893]	2	0.108420	src/mpid/ch4/src/ch4i_comm.c	660	Leaving check_convert_lut_to_regular
+0	-1	7f86c5113740[1869893]	1	0.108426	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108432	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	-1	7f86c5113740[1869893]	2	0.108437	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	1	0.108443	./src/mpid/ch4/src/ch4r_proc.h	104	Entering MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	8	0.108449	./src/mpid/ch4/src/ch4r_proc.h	161	 comm_to_av_addr: rank=0, av addr=0x56081ab0d490
+0	-1	7f86c5113740[1869893]	2	0.108455	./src/mpid/ch4/src/ch4r_proc.h	162	Leaving MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	1	0.108460	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108466	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=1, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.108472	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	1	0.108477	./src/mpid/ch4/src/ch4r_proc.h	104	Entering MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	8	0.108483	./src/mpid/ch4/src/ch4r_proc.h	161	 comm_to_av_addr: rank=1, av addr=0x56081ab0d4d8
+0	-1	7f86c5113740[1869893]	2	0.108488	./src/mpid/ch4/src/ch4r_proc.h	162	Leaving MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	2	0.108494	src/mpid/ch4/src/ch4i_comm.c	916	Leaving MPIDI_comm_create_rank_map
+0	-1	7f86c5113740[1869893]	1	0.108499	src/mpid/ch4/src/ch4r_proc.c	130	Entering MPIDIU_avt_add_ref
+0	-1	7f86c5113740[1869893]	4	0.108505	src/mpid/ch4/src/ch4r_proc.c	132	 incr avtid=0
+0	-1	7f86c5113740[1869893]	2	0.108511	src/mpid/ch4/src/ch4r_proc.c	135	Leaving MPIDIU_avt_add_ref
+0	-1	7f86c5113740[1869893]	1	0.108517	src/mpid/ch4/src/ch4r_init.c	13	Entering MPIDIG_init_comm
+0	-1	7f86c5113740[1869893]	2	0.108522	src/mpid/ch4/src/ch4r_init.c	28	Leaving MPIDIG_init_comm
+0	-1	7f86c5113740[1869893]	1	0.108528	src/mpid/ch4/netmod/ofi/ofi_comm.c	121	Entering MPIDI_OFI_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.108534	src/mpid/ch4/netmod/ofi/ofi_comm.c	159	Leaving MPIDI_OFI_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.108539	src/mpid/ch4/shm/src/shm_hooks.c	15	Entering MPIDI_SHM_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.108545	src/mpid/ch4/shm/posix/posix_comm.c	13	Entering MPIDI_POSIX_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.108550	src/mpid/ch4/shm/posix/release_gather/release_gather.c	148	Entering MPIDI_POSIX_mpi_release_gather_comm_init_null
+0	-1	7f86c5113740[1869893]	2	0.108556	src/mpid/ch4/shm/posix/release_gather/release_gather.c	172	Leaving MPIDI_POSIX_mpi_release_gather_comm_init_null
+0	-1	7f86c5113740[1869893]	2	0.108562	src/mpid/ch4/shm/posix/posix_comm.c	22	Leaving MPIDI_POSIX_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.108568	src/mpid/ch4/shm/src/shm_hooks.c	19	Leaving MPIDI_SHM_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.108573	src/mpid/ch4/src/ch4_comm.c	206	Leaving MPID_Comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.108579	src/mpi/comm/commutil.c	436	Entering MPIR_Comm_map_free
+0	-1	7f86c5113740[1869893]	2	0.108585	src/mpi/comm/commutil.c	447	Leaving MPIR_Comm_map_free
+0	-1	7f86c5113740[1869893]	2	0.108590	src/mpi/comm/commutil.c	518	Leaving MPIR_Comm_commit_internal
+0	-1	7f86c5113740[1869893]	2	0.108596	src/mpi/comm/commutil.c	631	Leaving MPIR_Comm_create_subcomms
+0	-1	7f86c5113740[1869893]	1	0.108619	src/mpid/ch4/src/ch4_comm.c	215	Entering MPID_Comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.108643	src/mpi/misc/utils.c	161	Entering MPIR_Localcopy
+0	-1	7f86c5113740[1869893]	1	0.108650	src/mpi/misc/utils.c	23	Entering do_localcopy
+0	-1	7f86c5113740[1869893]	1	0.108656	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	379	Entering MPIR_Typerep_unpack
+0	-1	7f86c5113740[1869893]	1	0.108668	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	238	Entering typerep_do_unpack
+0	-1	7f86c5113740[1869893]	2	0.108674	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	305	Leaving typerep_do_unpack
+0	-1	7f86c5113740[1869893]	2	0.108680	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	385	Leaving MPIR_Typerep_unpack
+0	-1	7f86c5113740[1869893]	2	0.108686	src/mpi/misc/utils.c	143	Leaving do_localcopy
+0	-1	7f86c5113740[1869893]	2	0.108692	src/mpi/misc/utils.c	167	Leaving MPIR_Localcopy
+0	-1	7f86c5113740[1869893]	1	0.108705	src/mpi/coll/helper_fns.c	288	Entering MPIC_Sendrecv
+0	-1	7f86c5113740[1869893]	1	0.108718	./src/mpid/ch4/src/ch4_recv.h	324	Entering MPID_Irecv
+0	-1	7f86c5113740[1869893]	1	0.108738	./src/mpid/ch4/src/ch4r_proc.h	104	Entering MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	8	0.108745	./src/mpid/ch4/src/ch4r_proc.h	161	 comm_to_av_addr: rank=0, av addr=0x56081ab0d490
+0	-1	7f86c5113740[1869893]	2	0.108750	./src/mpid/ch4/src/ch4r_proc.h	162	Leaving MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	1	0.108755	./src/mpid/ch4/src/ch4_recv.h	105	Entering MPIDI_irecv
+0	-1	7f86c5113740[1869893]	1	0.108761	./src/mpid/ch4/src/ch4_proc.h	32	Entering MPIDI_av_is_local
+0	-1	7f86c5113740[1869893]	1	0.108767	./src/mpid/ch4/src/ch4r_proc.h	229	Entering MPIDIU_av_is_local
+0	-1	7f86c5113740[1869893]	8	0.108773	./src/mpid/ch4/src/ch4r_proc.h	234	 is_local=1, av=0x56081ab0d490
+0	-1	7f86c5113740[1869893]	2	0.108778	./src/mpid/ch4/src/ch4r_proc.h	237	Leaving MPIDIU_av_is_local
+0	-1	7f86c5113740[1869893]	2	0.108784	./src/mpid/ch4/src/ch4_proc.h	40	Leaving MPIDI_av_is_local
+0	-1	7f86c5113740[1869893]	1	0.108790	./src/mpid/ch4/shm/src/shm_p2p.h	85	Entering MPIDI_SHM_mpi_irecv
+0	-1	7f86c5113740[1869893]	1	0.108796	./src/mpid/ch4/shm/src/../ipc/src/ipc_recv.h	89	Entering MPIDI_IPC_mpi_irecv
+0	-1	7f86c5113740[1869893]	1	0.108802	./src/mpid/ch4/src/ch4r_recvq.h	140	Entering MPIDIG_recvq_search
+0	-1	7f86c5113740[1869893]	2	0.108807	./src/mpid/ch4/src/ch4r_recvq.h	157	Leaving MPIDIG_recvq_search
+0	-1	7f86c5113740[1869893]	1	0.108813	./src/mpid/ch4/src/ch4r_request.h	17	Entering MPIDIG_request_create
+0	-1	7f86c5113740[1869893]	1	0.108823	./src/mpid/ch4/include/mpidpost.h	14	Entering MPID_Request_create_hook
+0	-1	7f86c5113740[1869893]	2	0.108829	./src/mpid/ch4/include/mpidpost.h	21	Leaving MPID_Request_create_hook
+0	-1	7f86c5113740[1869893]	1	0.108835	./src/mpid/ch4/shm/src/shm_am.h	93	Entering MPIDI_SHM_am_request_init
+0	-1	7f86c5113740[1869893]	2	0.108840	./src/mpid/ch4/shm/src/shm_am.h	98	Leaving MPIDI_SHM_am_request_init
+0	-1	7f86c5113740[1869893]	1	0.108846	src/mpid/common/genq/mpidu_genq_private_pool.c	151	Entering MPIDU_genq_private_pool_alloc_cell
+0	-1	7f86c5113740[1869893]	2	0.108874	src/mpid/common/genq/mpidu_genq_private_pool.c	187	Leaving MPIDU_genq_private_pool_alloc_cell
+0	-1	7f86c5113740[1869893]	2	0.108884	./src/mpid/ch4/src/ch4r_request.h	37	Leaving MPIDIG_request_create
+0	-1	7f86c5113740[1869893]	1	0.108891	./src/mpid/ch4/generic/am/mpidig_am_recv.h	17	Entering MPIDIG_prepare_recv_req
+0	-1	7f86c5113740[1869893]	2	0.108896	./src/mpid/ch4/generic/am/mpidig_am_recv.h	26	Leaving MPIDIG_prepare_recv_req
+0	-1	7f86c5113740[1869893]	1	0.108902	./src/mpid/ch4/src/ch4r_recvq.h	125	Entering MPIDIG_enqueue_request
+0	-1	7f86c5113740[1869893]	2	0.108907	./src/mpid/ch4/src/ch4r_recvq.h	129	Leaving MPIDIG_enqueue_request
+0	-1	7f86c5113740[1869893]	1	0.108912	./src/mpid/ch4/src/ch4r_proc.h	244	Entering MPIDIU_rank_to_lpid
+0	-1	7f86c5113740[1869893]	1	0.108918	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.108924	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	-1	7f86c5113740[1869893]	2	0.108929	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.108935	./src/mpid/ch4/src/ch4r_proc.h	254	Leaving MPIDIU_rank_to_lpid
+0	-1	7f86c5113740[1869893]	2	0.108941	./src/mpid/ch4/shm/src/../ipc/src/ipc_recv.h	141	Leaving MPIDI_IPC_mpi_irecv
+0	-1	7f86c5113740[1869893]	2	0.108947	./src/mpid/ch4/shm/src/shm_p2p.h	91	Leaving MPIDI_SHM_mpi_irecv
+0	-1	7f86c5113740[1869893]	2	0.108960	./src/mpid/ch4/src/ch4_recv.h	140	Leaving MPIDI_irecv
+0	-1	7f86c5113740[1869893]	2	0.108966	./src/mpid/ch4/src/ch4_recv.h	336	Leaving MPID_Irecv
+0	-1	7f86c5113740[1869893]	1	0.108972	./src/mpid/ch4/src/ch4_send.h	196	Entering MPID_Isend_coll
+0	-1	7f86c5113740[1869893]	1	0.108978	./src/mpid/ch4/src/ch4r_proc.h	104	Entering MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	8	0.108984	./src/mpid/ch4/src/ch4r_proc.h	161	 comm_to_av_addr: rank=0, av addr=0x56081ab0d490
+0	-1	7f86c5113740[1869893]	2	0.108989	./src/mpid/ch4/src/ch4r_proc.h	162	Leaving MPIDIU_comm_rank_to_av
+0	-1	7f86c5113740[1869893]	1	0.108994	./src/mpid/ch4/src/ch4_send.h	70	Entering MPIDI_isend_coll
+0	-1	7f86c5113740[1869893]	1	0.109000	./src/mpid/ch4/src/ch4_proc.h	32	Entering MPIDI_av_is_local
+0	-1	7f86c5113740[1869893]	1	0.109006	./src/mpid/ch4/src/ch4r_proc.h	229	Entering MPIDIU_av_is_local
+0	-1	7f86c5113740[1869893]	8	0.109011	./src/mpid/ch4/src/ch4r_proc.h	234	 is_local=1, av=0x56081ab0d490
+0	-1	7f86c5113740[1869893]	2	0.109017	./src/mpid/ch4/src/ch4r_proc.h	237	Leaving MPIDIU_av_is_local
+0	-1	7f86c5113740[1869893]	2	0.109023	./src/mpid/ch4/src/ch4_proc.h	40	Leaving MPIDI_av_is_local
+0	-1	7f86c5113740[1869893]	1	0.109028	./src/mpid/ch4/shm/src/shm_p2p.h	41	Entering MPIDI_SHM_isend_coll
+0	-1	7f86c5113740[1869893]	1	0.109034	./src/mpid/ch4/generic/am/mpidig_am_send.h	128	Entering MPIDIG_isend_coll
+0	-1	7f86c5113740[1869893]	1	0.109040	./src/mpid/ch4/generic/am/mpidig_am_send.h	39	Entering MPIDIG_isend_impl
+0	-1	7f86c5113740[1869893]	1	0.109045	./src/mpid/ch4/src/ch4r_request.h	17	Entering MPIDIG_request_create
+0	-1	7f86c5113740[1869893]	1	0.109051	./src/mpid/ch4/include/mpidpost.h	14	Entering MPID_Request_create_hook
+0	-1	7f86c5113740[1869893]	2	0.109056	./src/mpid/ch4/include/mpidpost.h	21	Leaving MPID_Request_create_hook
+0	-1	7f86c5113740[1869893]	1	0.109062	./src/mpid/ch4/shm/src/shm_am.h	93	Entering MPIDI_SHM_am_request_init
+0	-1	7f86c5113740[1869893]	2	0.109067	./src/mpid/ch4/shm/src/shm_am.h	98	Leaving MPIDI_SHM_am_request_init
+0	-1	7f86c5113740[1869893]	1	0.109073	src/mpid/common/genq/mpidu_genq_private_pool.c	151	Entering MPIDU_genq_private_pool_alloc_cell
+0	-1	7f86c5113740[1869893]	2	0.109079	src/mpid/common/genq/mpidu_genq_private_pool.c	187	Leaving MPIDU_genq_private_pool_alloc_cell
+0	-1	7f86c5113740[1869893]	2	0.109084	./src/mpid/ch4/src/ch4r_request.h	37	Leaving MPIDIG_request_create
+0	-1	7f86c5113740[1869893]	1	0.109090	./src/mpid/ch4/src/ch4_proc.h	32	Entering MPIDI_av_is_local
+0	-1	7f86c5113740[1869893]	1	0.109096	./src/mpid/ch4/src/ch4r_proc.h	229	Entering MPIDIU_av_is_local
+0	-1	7f86c5113740[1869893]	8	0.109102	./src/mpid/ch4/src/ch4r_proc.h	234	 is_local=1, av=0x56081ab0d490
+0	-1	7f86c5113740[1869893]	2	0.109106	./src/mpid/ch4/src/ch4r_proc.h	237	Leaving MPIDIU_av_is_local
+0	-1	7f86c5113740[1869893]	2	0.109112	./src/mpid/ch4/src/ch4_proc.h	40	Leaving MPIDI_av_is_local
+0	-1	7f86c5113740[1869893]	1	0.109118	./src/mpid/ch4/shm/src/shm_am.h	35	Entering MPIDI_SHM_am_isend
+0	-1	7f86c5113740[1869893]	1	0.109123	./src/mpid/ch4/src/ch4r_proc.h	244	Entering MPIDIU_rank_to_lpid
+0	-1	7f86c5113740[1869893]	1	0.109129	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.109135	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	-1	7f86c5113740[1869893]	2	0.109140	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.109145	./src/mpid/ch4/src/ch4r_proc.h	254	Leaving MPIDIU_rank_to_lpid
+0	-1	7f86c5113740[1869893]	1	0.109150	./src/mpid/ch4/shm/src/../posix/posix_am.h	88	Entering MPIDI_POSIX_am_isend
+0	-1	7f86c5113740[1869893]	1	0.109155	./src/mpid/ch4/shm/src/../posix/posix_am.h	266	Entering MPIDI_POSIX_do_am_isend
+0	-1	7f86c5113740[1869893]	1	0.109162	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_send.h	50	Entering MPIDI_POSIX_eager_send
+0	-1	7f86c5113740[1869893]	1	0.109167	./src/mpid/common/genq/mpidu_genq_shmem_pool.h	29	Entering MPIDU_genq_shmem_pool_cell_alloc
+0	-1	7f86c5113740[1869893]	1	0.109188	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	223	Entering MPIDU_genq_shmem_queue_dequeue
+0	-1	7f86c5113740[1869893]	2	0.109195	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	238	Leaving MPIDU_genq_shmem_queue_dequeue
+0	-1	7f86c5113740[1869893]	2	0.109201	./src/mpid/common/genq/mpidu_genq_shmem_pool.h	35	Leaving MPIDU_genq_shmem_pool_cell_alloc
+0	-1	7f86c5113740[1869893]	1	0.109206	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	325	Entering MPIR_Typerep_copy
+0	-1	7f86c5113740[1869893]	1	0.109212	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	61	Entering typerep_do_copy
+0	-1	7f86c5113740[1869893]	2	0.109218	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	103	Leaving typerep_do_copy
+0	-1	7f86c5113740[1869893]	2	0.109223	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	330	Leaving MPIR_Typerep_copy
+0	-1	7f86c5113740[1869893]	1	0.109229	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	352	Entering MPIR_Typerep_pack
+0	-1	7f86c5113740[1869893]	1	0.109234	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	115	Entering typerep_do_pack
+0	-1	7f86c5113740[1869893]	2	0.109240	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	180	Leaving typerep_do_pack
+0	-1	7f86c5113740[1869893]	2	0.109246	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	358	Leaving MPIR_Typerep_pack
+0	-1	7f86c5113740[1869893]	1	0.109251	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.109257	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.109262	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_send.h	113	Leaving MPIDI_POSIX_eager_send
+0	-1	7f86c5113740[1869893]	4	0.109269	./src/mpid/ch4/shm/src/../posix/posix_am.h	316	issue seg for req handle=0xac000001 send_size 4
+0	-1	7f86c5113740[1869893]	1	0.109274	./src/mpid/ch4/src/ch4_request.h	77	Entering MPID_Request_complete
+0	-1	7f86c5113740[1869893]	2	0.109280	./src/mpid/ch4/src/ch4_request.h	99	Leaving MPID_Request_complete
+0	-1	7f86c5113740[1869893]	1	0.109287	src/mpid/ch4/src/ch4r_callbacks.c	209	Entering MPIDIG_send_origin_cb
+0	-1	7f86c5113740[1869893]	1	0.109292	./src/mpid/ch4/src/ch4_request.h	77	Entering MPID_Request_complete
+0	-1	7f86c5113740[1869893]	1	0.109298	src/mpid/common/genq/mpidu_genq_private_pool.c	213	Entering MPIDU_genq_private_pool_free_cell
+0	-1	7f86c5113740[1869893]	2	0.109303	src/mpid/common/genq/mpidu_genq_private_pool.c	225	Leaving MPIDU_genq_private_pool_free_cell
+0	-1	7f86c5113740[1869893]	1	0.109310	./src/mpid/ch4/netmod/include/../ofi/ofi_am_impl.h	78	Entering MPIDI_OFI_am_clear_request
+0	-1	7f86c5113740[1869893]	2	0.109315	./src/mpid/ch4/netmod/include/../ofi/ofi_am_impl.h	89	Leaving MPIDI_OFI_am_clear_request
+0	-1	7f86c5113740[1869893]	1	0.109321	./src/mpid/ch4/shm/src/shm_am.h	103	Entering MPIDI_SHM_am_request_finalize
+0	-1	7f86c5113740[1869893]	1	0.109326	./src/mpid/ch4/shm/src/../posix/posix_request.h	23	Entering MPIDI_POSIX_am_request_finalize
+0	-1	7f86c5113740[1869893]	2	0.109332	./src/mpid/ch4/shm/src/../posix/posix_request.h	36	Leaving MPIDI_POSIX_am_request_finalize
+0	-1	7f86c5113740[1869893]	2	0.109338	./src/mpid/ch4/shm/src/shm_am.h	107	Leaving MPIDI_SHM_am_request_finalize
+0	-1	7f86c5113740[1869893]	1	0.109343	./src/mpid/ch4/include/mpidpost.h	26	Entering MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	2	0.109348	./src/mpid/ch4/include/mpidpost.h	39	Leaving MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	2	0.109354	./src/mpid/ch4/src/ch4_request.h	99	Leaving MPID_Request_complete
+0	-1	7f86c5113740[1869893]	2	0.109360	src/mpid/ch4/src/ch4r_callbacks.c	211	Leaving MPIDIG_send_origin_cb
+0	-1	7f86c5113740[1869893]	2	0.109365	./src/mpid/ch4/shm/src/../posix/posix_am.h	341	Leaving MPIDI_POSIX_do_am_isend
+0	-1	7f86c5113740[1869893]	2	0.109370	./src/mpid/ch4/shm/src/../posix/posix_am.h	97	Leaving MPIDI_POSIX_am_isend
+0	-1	7f86c5113740[1869893]	2	0.109376	./src/mpid/ch4/shm/src/shm_am.h	40	Leaving MPIDI_SHM_am_isend
+0	-1	7f86c5113740[1869893]	2	0.109381	./src/mpid/ch4/generic/am/mpidig_am_send.h	94	Leaving MPIDIG_isend_impl
+0	-1	7f86c5113740[1869893]	2	0.109393	./src/mpid/ch4/generic/am/mpidig_am_send.h	136	Leaving MPIDIG_isend_coll
+0	-1	7f86c5113740[1869893]	2	0.109399	./src/mpid/ch4/shm/src/shm_p2p.h	47	Leaving MPIDI_SHM_isend_coll
+0	-1	7f86c5113740[1869893]	2	0.109404	./src/mpid/ch4/src/ch4_send.h	103	Leaving MPIDI_isend_coll
+0	-1	7f86c5113740[1869893]	2	0.109410	./src/mpid/ch4/src/ch4_send.h	210	Leaving MPID_Isend_coll
+0	-1	7f86c5113740[1869893]	1	0.109416	src/mpi/coll/helper_fns.c	56	Entering MPIC_Wait
+0	-1	7f86c5113740[1869893]	2	0.109422	src/mpi/coll/helper_fns.c	73	Leaving MPIC_Wait
+0	-1	7f86c5113740[1869893]	1	0.109427	src/mpi/coll/helper_fns.c	56	Entering MPIC_Wait
+0	-1	7f86c5113740[1869893]	1	0.109433	./src/mpid/ch4/src/ch4_progress.h	299	Entering MPID_Progress_wait
+0	-1	7f86c5113740[1869893]	1	0.109439	./src/mpid/ch4/src/ch4_progress.h	113	Entering MPIDI_progress_test
+0	-1	7f86c5113740[1869893]	1	0.109445	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	105	Entering MPIDI_NM_progress
+0	-1	7f86c5113740[1869893]	2	0.109464	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	139	Leaving MPIDI_NM_progress
+0	-1	7f86c5113740[1869893]	1	0.109471	./src/mpid/ch4/shm/src/shm_progress.h	16	Entering MPIDI_SHM_progress
+0	-1	7f86c5113740[1869893]	1	0.109477	./src/mpid/ch4/shm/src/../posix/posix_progress.h	145	Entering MPIDI_POSIX_progress
+0	-1	7f86c5113740[1869893]	1	0.109490	./src/mpid/ch4/shm/src/../posix/posix_progress.h	25	Entering MPIDI_POSIX_progress_recv
+0	-1	7f86c5113740[1869893]	1	0.109496	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_recv.h	19	Entering MPIDI_POSIX_eager_recv_begin
+0	-1	7f86c5113740[1869893]	1	0.109502	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	223	Entering MPIDU_genq_shmem_queue_dequeue
+0	-1	7f86c5113740[1869893]	2	0.109507	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	238	Leaving MPIDU_genq_shmem_queue_dequeue
+0	-1	7f86c5113740[1869893]	2	0.109513	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_recv.h	43	Leaving MPIDI_POSIX_eager_recv_begin
+0	-1	7f86c5113740[1869893]	2	0.109518	./src/mpid/ch4/shm/src/../posix/posix_progress.h	98	Leaving MPIDI_POSIX_progress_recv
+0	-1	7f86c5113740[1869893]	1	0.109524	./src/mpid/ch4/shm/src/../posix/posix_progress.h	108	Entering MPIDI_POSIX_progress_send
+0	-1	7f86c5113740[1869893]	2	0.109530	./src/mpid/ch4/shm/src/../posix/posix_progress.h	139	Leaving MPIDI_POSIX_progress_send
+0	-1	7f86c5113740[1869893]	2	0.109535	./src/mpid/ch4/shm/src/../posix/posix_progress.h	160	Leaving MPIDI_POSIX_progress
+0	-1	7f86c5113740[1869893]	2	0.109541	./src/mpid/ch4/shm/src/shm_progress.h	20	Leaving MPIDI_SHM_progress
+0	-1	7f86c5113740[1869893]	2	0.109546	./src/mpid/ch4/src/ch4_progress.h	169	Leaving MPIDI_progress_test
+0	-1	7f86c5113740[1869893]	1	0.109552	./src/mpid/ch4/src/ch4_progress.h	113	Entering MPIDI_progress_test
+0	-1	7f86c5113740[1869893]	1	0.109557	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	105	Entering MPIDI_NM_progress
+0	-1	7f86c5113740[1869893]	2	0.109565	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	139	Leaving MPIDI_NM_progress
+0	-1	7f86c5113740[1869893]	1	0.109570	./src/mpid/ch4/shm/src/shm_progress.h	16	Entering MPIDI_SHM_progress
+0	-1	7f86c5113740[1869893]	1	0.109576	./src/mpid/ch4/shm/src/../posix/posix_progress.h	145	Entering MPIDI_POSIX_progress
+0	-1	7f86c5113740[1869893]	1	0.109581	./src/mpid/ch4/shm/src/../posix/posix_progress.h	25	Entering MPIDI_POSIX_progress_recv
+0	-1	7f86c5113740[1869893]	1	0.109587	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_recv.h	19	Entering MPIDI_POSIX_eager_recv_begin
+0	-1	7f86c5113740[1869893]	1	0.109592	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	223	Entering MPIDU_genq_shmem_queue_dequeue
+0	-1	7f86c5113740[1869893]	2	0.109601	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	238	Leaving MPIDU_genq_shmem_queue_dequeue
+0	-1	7f86c5113740[1869893]	2	0.109607	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_recv.h	43	Leaving MPIDI_POSIX_eager_recv_begin
+0	-1	7f86c5113740[1869893]	1	0.109613	src/mpid/ch4/src/ch4r_callbacks.c	234	Entering MPIDIG_send_target_msg_cb
+0	-1	7f86c5113740[1869893]	4	0.109620	src/mpid/ch4/src/ch4r_callbacks.c	236	HDR: data_sz=4, flags=0x0
+0	-1	7f86c5113740[1869893]	1	0.109631	./src/mpid/ch4/src/ch4r_recvq.h	140	Entering MPIDIG_recvq_search
+0	-1	7f86c5113740[1869893]	2	0.109638	./src/mpid/ch4/src/ch4r_recvq.h	157	Leaving MPIDIG_recvq_search
+0	-1	7f86c5113740[1869893]	4	0.109644	src/mpid/ch4/src/ch4r_callbacks.c	333	posted req 0x7f86c80f2800 handle=0xac000000
+0	-1	7f86c5113740[1869893]	4	0.109650	src/mpid/ch4/src/ch4r_callbacks.c	355	seq_no: me=0 exp=0
+0	-1	7f86c5113740[1869893]	1	0.109655	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	379	Entering MPIR_Typerep_unpack
+0	-1	7f86c5113740[1869893]	1	0.109661	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	238	Entering typerep_do_unpack
+0	-1	7f86c5113740[1869893]	2	0.109667	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	305	Leaving typerep_do_unpack
+0	-1	7f86c5113740[1869893]	2	0.109672	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	385	Leaving MPIR_Typerep_unpack
+0	-1	7f86c5113740[1869893]	1	0.109678	src/mpid/ch4/src/ch4r_callbacks.c	155	Entering recv_target_cmpl_cb
+0	-1	7f86c5113740[1869893]	4	0.109684	src/mpid/ch4/src/ch4r_callbacks.c	158	req 0x7f86c80f2800 handle=0xac000000
+0	-1	7f86c5113740[1869893]	1	0.109690	src/mpid/ch4/src/ch4r_callbacks.c	41	Entering MPIDIG_check_cmpl_order
+0	-1	7f86c5113740[1869893]	2	0.109695	src/mpid/ch4/src/ch4r_callbacks.c	55	Leaving MPIDIG_check_cmpl_order
+0	-1	7f86c5113740[1869893]	1	0.109701	./src/mpid/ch4/src/ch4_request.h	77	Entering MPID_Request_complete
+0	-1	7f86c5113740[1869893]	1	0.109707	src/mpid/common/genq/mpidu_genq_private_pool.c	213	Entering MPIDU_genq_private_pool_free_cell
+0	-1	7f86c5113740[1869893]	2	0.109712	src/mpid/common/genq/mpidu_genq_private_pool.c	225	Leaving MPIDU_genq_private_pool_free_cell
+0	-1	7f86c5113740[1869893]	1	0.109718	./src/mpid/ch4/netmod/include/../ofi/ofi_am_impl.h	78	Entering MPIDI_OFI_am_clear_request
+0	-1	7f86c5113740[1869893]	2	0.109723	./src/mpid/ch4/netmod/include/../ofi/ofi_am_impl.h	89	Leaving MPIDI_OFI_am_clear_request
+0	-1	7f86c5113740[1869893]	1	0.109728	./src/mpid/ch4/shm/src/shm_am.h	103	Entering MPIDI_SHM_am_request_finalize
+0	-1	7f86c5113740[1869893]	1	0.109734	./src/mpid/ch4/shm/src/../posix/posix_request.h	23	Entering MPIDI_POSIX_am_request_finalize
+0	-1	7f86c5113740[1869893]	2	0.109740	./src/mpid/ch4/shm/src/../posix/posix_request.h	36	Leaving MPIDI_POSIX_am_request_finalize
+0	-1	7f86c5113740[1869893]	2	0.109745	./src/mpid/ch4/shm/src/shm_am.h	107	Leaving MPIDI_SHM_am_request_finalize
+0	-1	7f86c5113740[1869893]	1	0.109751	./src/mpid/ch4/include/mpidpost.h	26	Entering MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	2	0.109756	./src/mpid/ch4/include/mpidpost.h	39	Leaving MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	2	0.109762	./src/mpid/ch4/src/ch4_request.h	99	Leaving MPID_Request_complete
+0	-1	7f86c5113740[1869893]	1	0.109767	src/mpid/ch4/src/ch4r_callbacks.c	64	Entering MPIDIG_progress_compl_list
+0	-1	7f86c5113740[1869893]	2	0.109773	src/mpid/ch4/src/ch4r_callbacks.c	77	Leaving MPIDIG_progress_compl_list
+0	-1	7f86c5113740[1869893]	2	0.109779	src/mpid/ch4/src/ch4r_callbacks.c	200	Leaving recv_target_cmpl_cb
+0	-1	7f86c5113740[1869893]	2	0.109784	src/mpid/ch4/src/ch4r_callbacks.c	387	Leaving MPIDIG_send_target_msg_cb
+0	-1	7f86c5113740[1869893]	1	0.109790	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_recv.h	60	Entering MPIDI_POSIX_eager_recv_commit
+0	-1	7f86c5113740[1869893]	1	0.109795	./src/mpid/common/genq/mpidu_genq_shmem_pool.h	47	Entering MPIDU_genq_shmem_pool_cell_free
+0	-1	7f86c5113740[1869893]	1	0.109801	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.109811	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	-1	7f86c5113740[1869893]	2	0.109817	./src/mpid/common/genq/mpidu_genq_shmem_pool.h	50	Leaving MPIDU_genq_shmem_pool_cell_free
+0	-1	7f86c5113740[1869893]	2	0.109823	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_recv.h	66	Leaving MPIDI_POSIX_eager_recv_commit
+0	-1	7f86c5113740[1869893]	2	0.109828	./src/mpid/ch4/shm/src/../posix/posix_progress.h	98	Leaving MPIDI_POSIX_progress_recv
+0	-1	7f86c5113740[1869893]	1	0.109839	./src/mpid/ch4/shm/src/../posix/posix_progress.h	108	Entering MPIDI_POSIX_progress_send
+0	-1	7f86c5113740[1869893]	2	0.109845	./src/mpid/ch4/shm/src/../posix/posix_progress.h	139	Leaving MPIDI_POSIX_progress_send
+0	-1	7f86c5113740[1869893]	2	0.109851	./src/mpid/ch4/shm/src/../posix/posix_progress.h	160	Leaving MPIDI_POSIX_progress
+0	-1	7f86c5113740[1869893]	2	0.109856	./src/mpid/ch4/shm/src/shm_progress.h	20	Leaving MPIDI_SHM_progress
+0	-1	7f86c5113740[1869893]	2	0.109862	./src/mpid/ch4/src/ch4_progress.h	169	Leaving MPIDI_progress_test
+0	-1	7f86c5113740[1869893]	2	0.109868	./src/mpid/ch4/src/ch4_progress.h	318	Leaving MPID_Progress_wait
+0	-1	7f86c5113740[1869893]	2	0.109874	src/mpi/coll/helper_fns.c	73	Leaving MPIC_Wait
+0	-1	7f86c5113740[1869893]	1	0.109880	./src/mpid/ch4/include/mpidpost.h	26	Entering MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	2	0.109886	./src/mpid/ch4/include/mpidpost.h	39	Leaving MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	1	0.109891	./src/mpid/ch4/include/mpidpost.h	45	Entering MPID_Request_destroy_hook
+0	-1	7f86c5113740[1869893]	2	0.109897	./src/mpid/ch4/include/mpidpost.h	47	Leaving MPID_Request_destroy_hook
+0	-1	7f86c5113740[1869893]	1	0.109903	./src/mpid/ch4/include/mpidpost.h	26	Entering MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	2	0.109908	./src/mpid/ch4/include/mpidpost.h	39	Leaving MPID_Request_free_hook
+0	-1	7f86c5113740[1869893]	1	0.109914	./src/mpid/ch4/include/mpidpost.h	45	Entering MPID_Request_destroy_hook
+0	-1	7f86c5113740[1869893]	2	0.109919	./src/mpid/ch4/include/mpidpost.h	47	Leaving MPID_Request_destroy_hook
+0	-1	7f86c5113740[1869893]	2	0.109925	src/mpi/coll/helper_fns.c	348	Leaving MPIC_Sendrecv
+0	-1	7f86c5113740[1869893]	1	0.109932	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	362	Entering MPII_Typerep_get_yaksa_op
+0	-1	7f86c5113740[1869893]	2	0.109937	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	405	Leaving MPII_Typerep_get_yaksa_op
+0	-1	7f86c5113740[1869893]	1	0.109943	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	427	Entering MPIR_Typerep_reduce
+0	-1	7f86c5113740[1869893]	1	0.109949	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	18	Entering MPII_Typerep_get_yaksa_type
+0	-1	7f86c5113740[1869893]	2	0.109955	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	356	Leaving MPII_Typerep_get_yaksa_type
+0	-1	7f86c5113740[1869893]	1	0.109960	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	362	Entering MPII_Typerep_get_yaksa_op
+0	-1	7f86c5113740[1869893]	2	0.109966	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	405	Leaving MPII_Typerep_get_yaksa_op
+0	-1	7f86c5113740[1869893]	2	0.110105	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	434	Leaving MPIR_Typerep_reduce
+0	-1	7f86c5113740[1869893]	1	0.110116	src/mpid/ch4/netmod/ofi/ofi_comm.c	169	Entering MPIDI_OFI_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110122	src/mpid/ch4/netmod/ofi/ofi_comm.c	173	Leaving MPIDI_OFI_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110128	src/mpid/ch4/shm/src/shm_hooks.c	27	Entering MPIDI_SHM_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110133	src/mpid/ch4/shm/posix/posix_comm.c	32	Entering MPIDI_POSIX_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110140	src/mpid/ch4/shm/posix/posix_comm.c	44	Leaving MPIDI_POSIX_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110146	src/mpid/ch4/shm/src/shm_hooks.c	31	Leaving MPIDI_SHM_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110154	src/mpid/ch4/src/ch4_comm.c	236	Leaving MPID_Comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110159	src/mpid/ch4/src/ch4_comm.c	215	Entering MPID_Comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110165	src/mpid/ch4/netmod/ofi/ofi_comm.c	169	Entering MPIDI_OFI_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110170	src/mpid/ch4/netmod/ofi/ofi_comm.c	173	Leaving MPIDI_OFI_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110175	src/mpid/ch4/shm/src/shm_hooks.c	27	Entering MPIDI_SHM_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110190	src/mpid/ch4/shm/posix/posix_comm.c	32	Entering MPIDI_POSIX_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110196	src/mpid/ch4/shm/posix/posix_comm.c	44	Leaving MPIDI_POSIX_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110202	src/mpid/ch4/shm/src/shm_hooks.c	31	Leaving MPIDI_SHM_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110208	src/mpid/ch4/src/ch4_comm.c	236	Leaving MPID_Comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110213	src/mpi/comm/commutil.c	737	Leaving MPIR_Comm_commit
+0	-1	7f86c5113740[1869893]	1	0.110220	src/mpi/comm/commutil.c	686	Entering MPIR_Comm_commit
+0	-1	7f86c5113740[1869893]	1	0.110225	src/mpi/comm/commutil.c	506	Entering MPIR_Comm_commit_internal
+0	-1	7f86c5113740[1869893]	1	0.110231	src/mpid/ch4/src/ch4_comm.c	140	Entering MPID_Comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.110236	src/mpid/ch4/src/ch4r_proc.c	130	Entering MPIDIU_avt_add_ref
+0	-1	7f86c5113740[1869893]	4	0.110241	src/mpid/ch4/src/ch4r_proc.c	132	 incr avtid=0
+0	-1	7f86c5113740[1869893]	2	0.110247	src/mpid/ch4/src/ch4r_proc.c	135	Leaving MPIDIU_avt_add_ref
+0	-1	7f86c5113740[1869893]	1	0.110252	src/mpid/ch4/src/ch4r_init.c	13	Entering MPIDIG_init_comm
+0	-1	7f86c5113740[1869893]	2	0.110257	src/mpid/ch4/src/ch4r_init.c	28	Leaving MPIDIG_init_comm
+0	-1	7f86c5113740[1869893]	1	0.110262	src/mpid/ch4/netmod/ofi/ofi_comm.c	121	Entering MPIDI_OFI_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.110268	src/mpid/ch4/netmod/ofi/ofi_comm.c	159	Leaving MPIDI_OFI_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.110274	src/mpid/ch4/shm/src/shm_hooks.c	15	Entering MPIDI_SHM_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.110279	src/mpid/ch4/shm/posix/posix_comm.c	13	Entering MPIDI_POSIX_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.110285	src/mpid/ch4/shm/posix/release_gather/release_gather.c	148	Entering MPIDI_POSIX_mpi_release_gather_comm_init_null
+0	-1	7f86c5113740[1869893]	2	0.110291	src/mpid/ch4/shm/posix/release_gather/release_gather.c	172	Leaving MPIDI_POSIX_mpi_release_gather_comm_init_null
+0	-1	7f86c5113740[1869893]	2	0.110297	src/mpid/ch4/shm/posix/posix_comm.c	22	Leaving MPIDI_POSIX_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.110302	src/mpid/ch4/shm/src/shm_hooks.c	19	Leaving MPIDI_SHM_mpi_comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	2	0.110308	src/mpid/ch4/src/ch4_comm.c	206	Leaving MPID_Comm_commit_pre_hook
+0	-1	7f86c5113740[1869893]	1	0.110315	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110320	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110326	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.110332	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.110338	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.110344	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.110349	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110356	src/mpi/comm/commutil.c	436	Entering MPIR_Comm_map_free
+0	-1	7f86c5113740[1869893]	2	0.110362	src/mpi/comm/commutil.c	447	Leaving MPIR_Comm_map_free
+0	-1	7f86c5113740[1869893]	2	0.110368	src/mpi/comm/commutil.c	518	Leaving MPIR_Comm_commit_internal
+0	-1	7f86c5113740[1869893]	1	0.110374	src/mpi/comm/commutil.c	531	Entering MPIR_Comm_create_subcomms
+0	-1	7f86c5113740[1869893]	1	0.110379	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110385	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110392	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.110398	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.110403	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.110409	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.110420	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110426	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110431	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110438	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.110444	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.110450	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.110456	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.110463	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110470	src/mpid/ch4/src/ch4_init.c	792	Entering MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110475	src/mpid/ch4/src/ch4r_proc.c	20	Entering MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	1	0.110481	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	8	0.110487	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=1
+0	-1	7f86c5113740[1869893]	2	0.110492	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	-1	7f86c5113740[1869893]	2	0.110498	src/mpid/ch4/src/ch4r_proc.c	29	Leaving MPIDIU_get_node_id
+0	-1	7f86c5113740[1869893]	2	0.110503	src/mpid/ch4/src/ch4_init.c	796	Leaving MPID_Get_node_id
+0	-1	7f86c5113740[1869893]	2	0.110509	src/mpi/comm/commutil.c	631	Leaving MPIR_Comm_create_subcomms
+0	-1	7f86c5113740[1869893]	1	0.110519	src/mpid/ch4/src/ch4_comm.c	215	Entering MPID_Comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110525	src/mpid/ch4/netmod/ofi/ofi_comm.c	169	Entering MPIDI_OFI_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110530	src/mpid/ch4/netmod/ofi/ofi_comm.c	173	Leaving MPIDI_OFI_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110536	src/mpid/ch4/shm/src/shm_hooks.c	27	Entering MPIDI_SHM_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	1	0.110542	src/mpid/ch4/shm/posix/posix_comm.c	32	Entering MPIDI_POSIX_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110548	src/mpid/ch4/shm/posix/posix_comm.c	44	Leaving MPIDI_POSIX_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110554	src/mpid/ch4/shm/src/shm_hooks.c	31	Leaving MPIDI_SHM_mpi_comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110561	src/mpid/ch4/src/ch4_comm.c	236	Leaving MPID_Comm_commit_post_hook
+0	-1	7f86c5113740[1869893]	2	0.110567	src/mpi/comm/commutil.c	737	Leaving MPIR_Comm_commit
+0	-1	7f86c5113740[1869893]	1	0.110574	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	11	Entering MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	2	0.110583	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	52	Leaving MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	1	0.110589	src/mpid/ch4/src/ch4_init.c	834	Entering MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110595	src/mpid/ch4/shm/src/shm_hooks.c	60	Entering MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110601	src/mpid/ch4/shm/posix/posix_datatype.c	12	Entering MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110606	src/mpid/ch4/shm/posix/posix_datatype.c	14	Leaving MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110613	src/mpid/ch4/shm/src/shm_hooks.c	64	Leaving MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110619	src/mpid/ch4/src/ch4_init.c	844	Leaving MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110624	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	11	Entering MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	2	0.110630	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	52	Leaving MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	1	0.110636	src/mpid/ch4/src/ch4_init.c	834	Entering MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110642	src/mpid/ch4/shm/src/shm_hooks.c	60	Entering MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110647	src/mpid/ch4/shm/posix/posix_datatype.c	12	Entering MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110658	src/mpid/ch4/shm/posix/posix_datatype.c	14	Leaving MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110664	src/mpid/ch4/shm/src/shm_hooks.c	64	Leaving MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110688	src/mpid/ch4/src/ch4_init.c	844	Leaving MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110697	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	11	Entering MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	2	0.110704	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	52	Leaving MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	1	0.110710	src/mpid/ch4/src/ch4_init.c	834	Entering MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110715	src/mpid/ch4/shm/src/shm_hooks.c	60	Entering MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110721	src/mpid/ch4/shm/posix/posix_datatype.c	12	Entering MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110727	src/mpid/ch4/shm/posix/posix_datatype.c	14	Leaving MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110733	src/mpid/ch4/shm/src/shm_hooks.c	64	Leaving MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110739	src/mpid/ch4/src/ch4_init.c	844	Leaving MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110744	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	11	Entering MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	2	0.110750	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	52	Leaving MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	1	0.110756	src/mpid/ch4/src/ch4_init.c	834	Entering MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110762	src/mpid/ch4/shm/src/shm_hooks.c	60	Entering MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110767	src/mpid/ch4/shm/posix/posix_datatype.c	12	Entering MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110773	src/mpid/ch4/shm/posix/posix_datatype.c	14	Leaving MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110778	src/mpid/ch4/shm/src/shm_hooks.c	64	Leaving MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110784	src/mpid/ch4/src/ch4_init.c	844	Leaving MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110790	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	11	Entering MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	2	0.110795	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	52	Leaving MPIR_Typerep_commit
+0	-1	7f86c5113740[1869893]	1	0.110801	src/mpid/ch4/src/ch4_init.c	834	Entering MPID_Type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110806	src/mpid/ch4/shm/src/shm_hooks.c	60	Entering MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	1	0.110812	src/mpid/ch4/shm/posix/posix_datatype.c	12	Entering MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110817	src/mpid/ch4/shm/posix/posix_datatype.c	14	Leaving MPIDI_POSIX_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110823	src/mpid/ch4/shm/src/shm_hooks.c	64	Leaving MPIDI_SHM_mpi_type_commit_hook
+0	-1	7f86c5113740[1869893]	2	0.110829	src/mpid/ch4/src/ch4_init.c	844	Leaving MPID_Type_commit_hook
+0	1	7f86c5113740[1869893]	1	0.110890	src/mpid/ch4/src/ch4_init.c	475	Entering MPID_InitCompleted
+0	1	7f86c5113740[1869893]	2	0.110900	src/mpid/ch4/src/ch4_init.c	486	Leaving MPID_InitCompleted
+0	1	7f86c5113740[1869893]	2	0.110907	src/binding/c/init/init.c	53	Leaving internal_Init
+0	1	7f86c5113740[1869893]	1	0.110920	src/binding/c/comm/comm_rank.c	35	Entering internal_Comm_rank
+0	1	7f86c5113740[1869893]	2	0.110927	src/binding/c/comm/comm_rank.c	68	Leaving internal_Comm_rank
+0	1	7f86c5113740[1869893]	1	0.110933	src/binding/c/comm/comm_size.c	35	Entering internal_Comm_size
+0	1	7f86c5113740[1869893]	2	0.110939	src/binding/c/comm/comm_size.c	68	Leaving internal_Comm_size
+0	1	7f86c5113740[1869893]	1	0.110968	src/binding/c/pt2pt/send.c	39	Entering internal_Send
+0	1	7f86c5113740[1869893]	1	0.110982	./src/mpid/ch4/src/ch4_send.h	168	Entering MPID_Isend
+0	1	7f86c5113740[1869893]	1	0.110988	./src/mpid/ch4/src/ch4r_proc.h	104	Entering MPIDIU_comm_rank_to_av
+0	1	7f86c5113740[1869893]	8	0.111002	./src/mpid/ch4/src/ch4r_proc.h	161	 comm_to_av_addr: rank=0, av addr=0x56081ab0d490
+0	1	7f86c5113740[1869893]	2	0.111009	./src/mpid/ch4/src/ch4r_proc.h	162	Leaving MPIDIU_comm_rank_to_av
+0	1	7f86c5113740[1869893]	1	0.111014	./src/mpid/ch4/src/ch4_send.h	21	Entering MPIDI_isend
+0	1	7f86c5113740[1869893]	1	0.111020	./src/mpid/ch4/src/ch4_proc.h	32	Entering MPIDI_av_is_local
+0	1	7f86c5113740[1869893]	1	0.111025	./src/mpid/ch4/src/ch4r_proc.h	229	Entering MPIDIU_av_is_local
+0	1	7f86c5113740[1869893]	8	0.111032	./src/mpid/ch4/src/ch4r_proc.h	234	 is_local=1, av=0x56081ab0d490
+0	1	7f86c5113740[1869893]	2	0.111037	./src/mpid/ch4/src/ch4r_proc.h	237	Leaving MPIDIU_av_is_local
+0	1	7f86c5113740[1869893]	2	0.111042	./src/mpid/ch4/src/ch4_proc.h	40	Leaving MPIDI_av_is_local
+0	1	7f86c5113740[1869893]	1	0.111048	./src/mpid/ch4/shm/src/shm_p2p.h	20	Entering MPIDI_SHM_mpi_isend
+0	1	7f86c5113740[1869893]	1	0.111054	./src/mpid/ch4/shm/src/../ipc/src/ipc_send.h	69	Entering MPIDI_IPC_mpi_isend
+0	1	7f86c5113740[1869893]	1	0.111059	./src/mpid/ch4/shm/src/../ipc/src/ipc_send.h	23	Entering MPIDI_IPCI_try_lmt_isend
+0	1	7f86c5113740[1869893]	1	0.111064	./src/mpid/ch4/shm/src/../ipc/src/../xpmem/xpmem_post.h	44	Entering MPIDI_XPMEM_get_ipc_attr
+0	1	7f86c5113740[1869893]	2	0.111070	./src/mpid/ch4/shm/src/../ipc/src/../xpmem/xpmem_post.h	65	Leaving MPIDI_XPMEM_get_ipc_attr
+0	1	7f86c5113740[1869893]	2	0.111075	./src/mpid/ch4/shm/src/../ipc/src/ipc_send.h	57	Leaving MPIDI_IPCI_try_lmt_isend
+0	1	7f86c5113740[1869893]	1	0.111081	./src/mpid/ch4/generic/am/mpidig_am_send.h	108	Entering MPIDIG_mpi_isend
+0	1	7f86c5113740[1869893]	1	0.111086	./src/mpid/ch4/generic/am/mpidig_am_send.h	39	Entering MPIDIG_isend_impl
+0	1	7f86c5113740[1869893]	1	0.111091	./src/mpid/ch4/src/ch4r_request.h	17	Entering MPIDIG_request_create
+0	1	7f86c5113740[1869893]	2048	0.111099	./src/include/mpir_handlemem.h	357	Allocating object ptr 0x7f86c80f2800 (handle val 0xac000000)
+0	1	7f86c5113740[1869893]	65536	0.111104	./src/include/mpir_request.h	391	allocated request, handle=0xac000000
+0	1	7f86c5113740[1869893]	2048	0.111112	./src/include/mpir_request.h	408	set 0x7f86c80f2800 (0xac000000 kind=REQUEST) refcount to 2
+0	1	7f86c5113740[1869893]	1	0.111118	./src/mpid/ch4/include/mpidpost.h	14	Entering MPID_Request_create_hook
+0	1	7f86c5113740[1869893]	2	0.111124	./src/mpid/ch4/include/mpidpost.h	21	Leaving MPID_Request_create_hook
+0	1	7f86c5113740[1869893]	1	0.111129	./src/mpid/ch4/shm/src/shm_am.h	93	Entering MPIDI_SHM_am_request_init
+0	1	7f86c5113740[1869893]	2	0.111135	./src/mpid/ch4/shm/src/shm_am.h	98	Leaving MPIDI_SHM_am_request_init
+0	1	7f86c5113740[1869893]	1	0.111140	src/mpid/common/genq/mpidu_genq_private_pool.c	151	Entering MPIDU_genq_private_pool_alloc_cell
+0	1	7f86c5113740[1869893]	2	0.111146	src/mpid/common/genq/mpidu_genq_private_pool.c	187	Leaving MPIDU_genq_private_pool_alloc_cell
+0	1	7f86c5113740[1869893]	2	0.111152	./src/mpid/ch4/src/ch4r_request.h	37	Leaving MPIDIG_request_create
+0	1	7f86c5113740[1869893]	2048	0.111159	./src/mpid/ch4/generic/am/mpidig_am_send.h	49	incr 0x7f86c80e7a60 (0x44000000 kind=COMM) refcount to 2
+0	1	7f86c5113740[1869893]	1	0.111165	./src/mpid/ch4/src/ch4_proc.h	32	Entering MPIDI_av_is_local
+0	1	7f86c5113740[1869893]	1	0.111170	./src/mpid/ch4/src/ch4r_proc.h	229	Entering MPIDIU_av_is_local
+0	1	7f86c5113740[1869893]	8	0.111177	./src/mpid/ch4/src/ch4r_proc.h	234	 is_local=1, av=0x56081ab0d490
+0	1	7f86c5113740[1869893]	2	0.111182	./src/mpid/ch4/src/ch4r_proc.h	237	Leaving MPIDIU_av_is_local
+0	1	7f86c5113740[1869893]	2	0.111188	./src/mpid/ch4/src/ch4_proc.h	40	Leaving MPIDI_av_is_local
+0	1	7f86c5113740[1869893]	1	0.111194	./src/mpid/ch4/shm/src/shm_am.h	35	Entering MPIDI_SHM_am_isend
+0	1	7f86c5113740[1869893]	1	0.111199	./src/mpid/ch4/src/ch4r_proc.h	244	Entering MPIDIU_rank_to_lpid
+0	1	7f86c5113740[1869893]	1	0.111205	./src/mpid/ch4/src/ch4r_proc.h	41	Entering MPIDIU_comm_rank_to_pid
+0	1	7f86c5113740[1869893]	8	0.111211	./src/mpid/ch4/src/ch4r_proc.h	96	 comm_to_pid: rank=0, avtid=0 idx=0
+0	1	7f86c5113740[1869893]	2	0.111223	./src/mpid/ch4/src/ch4r_proc.h	97	Leaving MPIDIU_comm_rank_to_pid
+0	1	7f86c5113740[1869893]	2	0.111228	./src/mpid/ch4/src/ch4r_proc.h	254	Leaving MPIDIU_rank_to_lpid
+0	1	7f86c5113740[1869893]	1	0.111234	./src/mpid/ch4/shm/src/../posix/posix_am.h	88	Entering MPIDI_POSIX_am_isend
+0	1	7f86c5113740[1869893]	1	0.111239	./src/mpid/ch4/shm/src/../posix/posix_am.h	266	Entering MPIDI_POSIX_do_am_isend
+0	1	7f86c5113740[1869893]	1	0.111245	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_send.h	50	Entering MPIDI_POSIX_eager_send
+0	1	7f86c5113740[1869893]	1	0.111251	./src/mpid/common/genq/mpidu_genq_shmem_pool.h	29	Entering MPIDU_genq_shmem_pool_cell_alloc
+0	1	7f86c5113740[1869893]	1	0.111256	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	223	Entering MPIDU_genq_shmem_queue_dequeue
+0	1	7f86c5113740[1869893]	2	0.111263	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	238	Leaving MPIDU_genq_shmem_queue_dequeue
+0	1	7f86c5113740[1869893]	2	0.111269	./src/mpid/common/genq/mpidu_genq_shmem_pool.h	35	Leaving MPIDU_genq_shmem_pool_cell_alloc
+0	1	7f86c5113740[1869893]	1	0.111274	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	325	Entering MPIR_Typerep_copy
+0	1	7f86c5113740[1869893]	1	0.111279	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	61	Entering typerep_do_copy
+0	1	7f86c5113740[1869893]	2	0.111285	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	103	Leaving typerep_do_copy
+0	1	7f86c5113740[1869893]	2	0.111291	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	330	Leaving MPIR_Typerep_copy
+0	1	7f86c5113740[1869893]	1	0.111297	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	352	Entering MPIR_Typerep_pack
+0	1	7f86c5113740[1869893]	1	0.111302	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	115	Entering typerep_do_pack
+0	1	7f86c5113740[1869893]	2	0.111308	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	180	Leaving typerep_do_pack
+0	1	7f86c5113740[1869893]	2	0.111314	src/mpi/datatype/typerep/src/typerep_yaksa_pack.c	358	Leaving MPIR_Typerep_pack
+0	1	7f86c5113740[1869893]	1	0.111319	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	246	Entering MPIDU_genq_shmem_queue_enqueue
+0	1	7f86c5113740[1869893]	2	0.111325	./src/mpid/common/genq/mpidu_genq_shmem_queue.h	261	Leaving MPIDU_genq_shmem_queue_enqueue
+0	1	7f86c5113740[1869893]	2	0.111331	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_send.h	113	Leaving MPIDI_POSIX_eager_send
+0	1	7f86c5113740[1869893]	4	0.111338	./src/mpid/ch4/shm/src/../posix/posix_am.h	316	issue seg for req handle=0xac000000 send_size 128
+0	1	7f86c5113740[1869893]	1	0.111344	./src/mpid/ch4/src/ch4_request.h	77	Entering MPID_Request_complete
+0	1	7f86c5113740[1869893]	2	0.111349	./src/mpid/ch4/src/ch4_request.h	99	Leaving MPID_Request_complete
+0	1	7f86c5113740[1869893]	1	0.111355	src/mpid/ch4/src/ch4r_callbacks.c	209	Entering MPIDIG_send_origin_cb
+0	1	7f86c5113740[1869893]	1	0.111361	./src/mpid/ch4/src/ch4_request.h	77	Entering MPID_Request_complete
+0	1	7f86c5113740[1869893]	1	0.111367	src/mpid/common/genq/mpidu_genq_private_pool.c	213	Entering MPIDU_genq_private_pool_free_cell
+0	1	7f86c5113740[1869893]	2	0.111373	src/mpid/common/genq/mpidu_genq_private_pool.c	225	Leaving MPIDU_genq_private_pool_free_cell
+0	1	7f86c5113740[1869893]	1	0.111379	./src/mpid/ch4/netmod/include/../ofi/ofi_am_impl.h	78	Entering MPIDI_OFI_am_clear_request
+0	1	7f86c5113740[1869893]	2	0.111384	./src/mpid/ch4/netmod/include/../ofi/ofi_am_impl.h	89	Leaving MPIDI_OFI_am_clear_request
+0	1	7f86c5113740[1869893]	1	0.111390	./src/mpid/ch4/shm/src/shm_am.h	103	Entering MPIDI_SHM_am_request_finalize
+0	1	7f86c5113740[1869893]	1	0.111396	./src/mpid/ch4/shm/src/../posix/posix_request.h	23	Entering MPIDI_POSIX_am_request_finalize
+0	1	7f86c5113740[1869893]	2	0.111402	./src/mpid/ch4/shm/src/../posix/posix_request.h	36	Leaving MPIDI_POSIX_am_request_finalize
+0	1	7f86c5113740[1869893]	2	0.111408	./src/mpid/ch4/shm/src/shm_am.h	107	Leaving MPIDI_SHM_am_request_finalize
+0	1	7f86c5113740[1869893]	2048	0.111415	./src/include/mpir_request.h	505	decr 0x7f86c80f2800 (0xac000000 kind=REQUEST) refcount to 1
+0	1	7f86c5113740[1869893]	1	0.111420	./src/mpid/ch4/include/mpidpost.h	26	Entering MPID_Request_free_hook
+0	1	7f86c5113740[1869893]	2	0.111430	./src/mpid/ch4/include/mpidpost.h	39	Leaving MPID_Request_free_hook
+0	1	7f86c5113740[1869893]	2	0.111436	./src/mpid/ch4/src/ch4_request.h	99	Leaving MPID_Request_complete
+0	1	7f86c5113740[1869893]	2	0.111442	src/mpid/ch4/src/ch4r_callbacks.c	211	Leaving MPIDIG_send_origin_cb
+0	1	7f86c5113740[1869893]	2	0.111447	./src/mpid/ch4/shm/src/../posix/posix_am.h	341	Leaving MPIDI_POSIX_do_am_isend
+0	1	7f86c5113740[1869893]	2	0.111453	./src/mpid/ch4/shm/src/../posix/posix_am.h	97	Leaving MPIDI_POSIX_am_isend
+0	1	7f86c5113740[1869893]	2	0.111459	./src/mpid/ch4/shm/src/shm_am.h	40	Leaving MPIDI_SHM_am_isend
+0	1	7f86c5113740[1869893]	2	0.111464	./src/mpid/ch4/generic/am/mpidig_am_send.h	94	Leaving MPIDIG_isend_impl
+0	1	7f86c5113740[1869893]	2	0.111470	./src/mpid/ch4/generic/am/mpidig_am_send.h	116	Leaving MPIDIG_mpi_isend
+0	1	7f86c5113740[1869893]	2	0.111475	./src/mpid/ch4/shm/src/../ipc/src/ipc_send.h	83	Leaving MPIDI_IPC_mpi_isend
+0	1	7f86c5113740[1869893]	2	0.111481	./src/mpid/ch4/shm/src/shm_p2p.h	27	Leaving MPIDI_SHM_mpi_isend
+0	1	7f86c5113740[1869893]	2	0.111487	./src/mpid/ch4/src/ch4_send.h	52	Leaving MPIDI_isend
+0	1	7f86c5113740[1869893]	2	0.111492	./src/mpid/ch4/src/ch4_send.h	180	Leaving MPID_Isend
+0	1	7f86c5113740[1869893]	2048	0.111499	./src/include/mpir_request.h	505	decr 0x7f86c80f2800 (0xac000000 kind=REQUEST) refcount to 0
+0	1	7f86c5113740[1869893]	1	0.111504	./src/mpid/ch4/include/mpidpost.h	26	Entering MPID_Request_free_hook
+0	1	7f86c5113740[1869893]	2	0.111510	./src/mpid/ch4/include/mpidpost.h	39	Leaving MPID_Request_free_hook
+0	1	7f86c5113740[1869893]	65536	0.111515	./src/include/mpir_request.h	518	freeing request, handle=0xac000000
+0	1	7f86c5113740[1869893]	2048	0.111522	./src/include/mpir_comm.h	260	decr 0x7f86c80e7a60 (0x44000000 kind=COMM) refcount to 1
+0	1	7f86c5113740[1869893]	1	0.111528	./src/mpid/ch4/include/mpidpost.h	45	Entering MPID_Request_destroy_hook
+0	1	7f86c5113740[1869893]	2	0.111533	./src/mpid/ch4/include/mpidpost.h	47	Leaving MPID_Request_destroy_hook
+0	1	7f86c5113740[1869893]	2048	0.111540	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80f2800 (0xac000000 kind=REQUEST) refcount=0
+0	1	7f86c5113740[1869893]	2	0.111545	src/binding/c/pt2pt/send.c	113	Leaving internal_Send
+0	1	7f86c5113740[1869893]	1	0.111552	src/binding/c/init/finalize.c	34	Entering internal_Finalize
+0	1	7f86c5113740[1869893]	1	0.111558	src/mpi/comm/commutil.c	1089	Entering MPIR_Comm_release_always
+0	1	7f86c5113740[1869893]	2048	0.111565	src/mpi/comm/commutil.c	1093	decr 0x7f86c80e7e78 (0x44000001 kind=COMM) refcount to 0
+0	1	7f86c5113740[1869893]	1	0.111571	src/mpi/comm/commutil.c	980	Entering MPIR_Comm_delete_internal
+0	1	7f86c5113740[1869893]	1	0.111578	src/mpid/ch4/src/ch4_comm.c	245	Entering MPID_Comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111584	src/mpid/ch4/src/ch4r_proc.c	143	Entering MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	4	0.111590	src/mpid/ch4/src/ch4r_proc.c	145	 decr avtid=0
+0	1	7f86c5113740[1869893]	2048	0.111597	src/mpid/ch4/src/ch4r_proc.c	146	decr 0x56081ab0d480 (0xc5486be0 kind=COMM) refcount to 3
+0	1	7f86c5113740[1869893]	2	0.111602	src/mpid/ch4/src/ch4r_proc.c	151	Leaving MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	1	0.111609	src/mpid/ch4/netmod/ofi/ofi_comm.c	180	Entering MPIDI_OFI_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	2	0.111614	src/mpid/ch4/netmod/ofi/ofi_comm.c	188	Leaving MPIDI_OFI_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111620	src/mpid/ch4/shm/src/shm_hooks.c	48	Entering MPIDI_SHM_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111626	src/mpid/ch4/shm/posix/posix_comm.c	53	Entering MPIDI_POSIX_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111633	src/mpid/ch4/shm/posix/release_gather/release_gather.c	483	Entering MPIDI_POSIX_mpi_release_gather_comm_free
+0	1	7f86c5113740[1869893]	2	0.111638	src/mpid/ch4/shm/posix/release_gather/release_gather.c	548	Leaving MPIDI_POSIX_mpi_release_gather_comm_free
+0	1	7f86c5113740[1869893]	2	0.111644	src/mpid/ch4/shm/posix/posix_comm.c	67	Leaving MPIDI_POSIX_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	2	0.111654	src/mpid/ch4/shm/src/shm_hooks.c	52	Leaving MPIDI_SHM_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111661	src/mpid/ch4/src/ch4r_init.c	35	Entering MPIDIG_destroy_comm
+0	1	7f86c5113740[1869893]	2	0.111666	src/mpid/ch4/src/ch4r_init.c	46	Leaving MPIDIG_destroy_comm
+0	1	7f86c5113740[1869893]	2	0.111672	src/mpid/ch4/src/ch4_comm.c	300	Leaving MPID_Comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111678	src/mpi/comm/contextid.c	1113	Entering MPIR_Free_contextid
+0	1	7f86c5113740[1869893]	4096	0.111686	src/mpi/comm/contextid.c	1177	Freed context 16, mask[0] bit 1 (prefix=0x1)
+0	1	7f86c5113740[1869893]	2	0.111692	src/mpi/comm/contextid.c	1179	Leaving MPIR_Free_contextid
+0	1	7f86c5113740[1869893]	512	0.111698	src/mpi/comm/commutil.c	1044	About to destroy MPL_thread_mutex 0x7f86c80e7e80
+0	1	7f86c5113740[1869893]	2	0.111706	src/mpi/comm/commutil.c	1074	Leaving MPIR_Comm_delete_internal
+0	1	7f86c5113740[1869893]	2	0.111713	src/mpi/comm/commutil.c	1100	Leaving MPIR_Comm_release_always
+0	1	7f86c5113740[1869893]	1	0.111718	src/mpi/comm/commutil.c	1089	Entering MPIR_Comm_release_always
+0	1	7f86c5113740[1869893]	2048	0.111725	src/mpi/comm/commutil.c	1093	decr 0x7f86c80e7a60 (0x44000000 kind=COMM) refcount to 0
+0	1	7f86c5113740[1869893]	1	0.111730	src/mpi/comm/commutil.c	980	Entering MPIR_Comm_delete_internal
+0	1	7f86c5113740[1869893]	1	0.111736	src/mpid/ch4/src/ch4_comm.c	245	Entering MPID_Comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111742	src/mpid/ch4/src/ch4r_proc.c	143	Entering MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	4	0.111748	src/mpid/ch4/src/ch4r_proc.c	145	 decr avtid=0
+0	1	7f86c5113740[1869893]	2048	0.111754	src/mpid/ch4/src/ch4r_proc.c	146	decr 0x56081ab0d480 (0xc5486be0 kind=COMM) refcount to 2
+0	1	7f86c5113740[1869893]	2	0.111760	src/mpid/ch4/src/ch4r_proc.c	151	Leaving MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	1	0.111765	src/mpid/ch4/netmod/ofi/ofi_comm.c	180	Entering MPIDI_OFI_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	2	0.111771	src/mpid/ch4/netmod/ofi/ofi_comm.c	188	Leaving MPIDI_OFI_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111776	src/mpid/ch4/shm/src/shm_hooks.c	48	Entering MPIDI_SHM_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111782	src/mpid/ch4/shm/posix/posix_comm.c	53	Entering MPIDI_POSIX_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111787	src/mpid/ch4/shm/posix/release_gather/release_gather.c	483	Entering MPIDI_POSIX_mpi_release_gather_comm_free
+0	1	7f86c5113740[1869893]	2	0.111793	src/mpid/ch4/shm/posix/release_gather/release_gather.c	548	Leaving MPIDI_POSIX_mpi_release_gather_comm_free
+0	1	7f86c5113740[1869893]	2	0.111799	src/mpid/ch4/shm/posix/posix_comm.c	67	Leaving MPIDI_POSIX_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	2	0.111804	src/mpid/ch4/shm/src/shm_hooks.c	52	Leaving MPIDI_SHM_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111809	src/mpid/ch4/src/ch4r_init.c	35	Entering MPIDIG_destroy_comm
+0	1	7f86c5113740[1869893]	2	0.111814	src/mpid/ch4/src/ch4r_init.c	46	Leaving MPIDIG_destroy_comm
+0	1	7f86c5113740[1869893]	2	0.111820	src/mpid/ch4/src/ch4_comm.c	300	Leaving MPID_Comm_free_hook
+0	1	7f86c5113740[1869893]	2048	0.111826	./src/include/mpir_comm.h	260	decr 0x7f86c80e59a0 (0x84000000 kind=COMM) refcount to 0
+0	1	7f86c5113740[1869893]	1	0.111832	src/mpi/comm/commutil.c	980	Entering MPIR_Comm_delete_internal
+0	1	7f86c5113740[1869893]	1	0.111838	src/mpid/ch4/src/ch4_comm.c	245	Entering MPID_Comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111843	src/mpid/ch4/src/ch4r_proc.c	143	Entering MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	4	0.111849	src/mpid/ch4/src/ch4r_proc.c	145	 decr avtid=0
+0	1	7f86c5113740[1869893]	2048	0.111855	src/mpid/ch4/src/ch4r_proc.c	146	decr 0x56081ab0d480 (0xc5486be0 kind=COMM) refcount to 1
+0	1	7f86c5113740[1869893]	2	0.111860	src/mpid/ch4/src/ch4r_proc.c	151	Leaving MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	1	0.111866	src/mpid/ch4/netmod/ofi/ofi_comm.c	180	Entering MPIDI_OFI_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	2	0.111871	src/mpid/ch4/netmod/ofi/ofi_comm.c	188	Leaving MPIDI_OFI_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111882	src/mpid/ch4/shm/src/shm_hooks.c	48	Entering MPIDI_SHM_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111888	src/mpid/ch4/shm/posix/posix_comm.c	53	Entering MPIDI_POSIX_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111895	src/mpid/ch4/shm/posix/release_gather/release_gather.c	483	Entering MPIDI_POSIX_mpi_release_gather_comm_free
+0	1	7f86c5113740[1869893]	2	0.111900	src/mpid/ch4/shm/posix/release_gather/release_gather.c	548	Leaving MPIDI_POSIX_mpi_release_gather_comm_free
+0	1	7f86c5113740[1869893]	2	0.111906	src/mpid/ch4/shm/posix/posix_comm.c	67	Leaving MPIDI_POSIX_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	2	0.111912	src/mpid/ch4/shm/src/shm_hooks.c	52	Leaving MPIDI_SHM_mpi_comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111917	src/mpid/ch4/src/ch4r_init.c	35	Entering MPIDIG_destroy_comm
+0	1	7f86c5113740[1869893]	2	0.111923	src/mpid/ch4/src/ch4r_init.c	46	Leaving MPIDIG_destroy_comm
+0	1	7f86c5113740[1869893]	2	0.111928	src/mpid/ch4/src/ch4_comm.c	300	Leaving MPID_Comm_free_hook
+0	1	7f86c5113740[1869893]	1	0.111934	src/mpi/comm/contextid.c	1113	Entering MPIR_Free_contextid
+0	1	7f86c5113740[1869893]	4096	0.111940	src/mpi/comm/contextid.c	1147	skipping non-parent communicator ctx id, context_id=2
+0	1	7f86c5113740[1869893]	2	0.111946	src/mpi/comm/contextid.c	1179	Leaving MPIR_Free_contextid
+0	1	7f86c5113740[1869893]	512	0.111952	src/mpi/comm/commutil.c	1044	About to destroy MPL_thread_mutex 0x7f86c80e59a8
+0	1	7f86c5113740[1869893]	2048	0.111959	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80e59a0 (0x84000000 kind=COMM) refcount=0
+0	1	7f86c5113740[1869893]	2	0.111964	src/mpi/comm/commutil.c	1074	Leaving MPIR_Comm_delete_internal
+0	1	7f86c5113740[1869893]	1	0.111970	src/mpi/comm/contextid.c	1113	Entering MPIR_Free_contextid
+0	1	7f86c5113740[1869893]	4096	0.111977	src/mpi/comm/contextid.c	1177	Freed context 0, mask[0] bit 0 (prefix=0)
+0	1	7f86c5113740[1869893]	2	0.111982	src/mpi/comm/contextid.c	1179	Leaving MPIR_Free_contextid
+0	1	7f86c5113740[1869893]	512	0.111988	src/mpi/comm/commutil.c	1044	About to destroy MPL_thread_mutex 0x7f86c80e7a68
+0	1	7f86c5113740[1869893]	2	0.111994	src/mpi/comm/commutil.c	1074	Leaving MPIR_Comm_delete_internal
+0	1	7f86c5113740[1869893]	2	0.111999	src/mpi/comm/commutil.c	1100	Leaving MPIR_Comm_release_always
+0	1	7f86c5113740[1869893]	1	0.112005	src/mpid/ch4/src/ch4_init.c	506	Entering MPID_Finalize
+0	1	7f86c5113740[1869893]	1	0.112011	src/mpid/ch4/netmod/ofi/ofi_init.c	844	Entering MPIDI_OFI_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112164	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	105	Entering MPIDI_NM_progress
+0	1	7f86c5113740[1869893]	2	0.112221	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	139	Leaving MPIDI_NM_progress
+0	1	7f86c5113740[1869893]	1	0.112230	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	105	Entering MPIDI_NM_progress
+0	1	7f86c5113740[1869893]	1	0.112266	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	85	Entering MPIDI_OFI_handle_cq_entries
+0	1	7f86c5113740[1869893]	1	0.112281	src/mpid/ch4/netmod/ofi/ofi_events.c	478	Entering dynproc_done_event
+0	1	7f86c5113740[1869893]	2	0.112286	src/mpid/ch4/netmod/ofi/ofi_events.c	481	Leaving dynproc_done_event
+0	1	7f86c5113740[1869893]	2	0.112290	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	94	Leaving MPIDI_OFI_handle_cq_entries
+0	1	7f86c5113740[1869893]	2	0.112294	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	139	Leaving MPIDI_NM_progress
+0	1	7f86c5113740[1869893]	1	0.112299	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	105	Entering MPIDI_NM_progress
+0	1	7f86c5113740[1869893]	1	0.112308	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	85	Entering MPIDI_OFI_handle_cq_entries
+0	1	7f86c5113740[1869893]	1	0.112313	src/mpid/ch4/netmod/ofi/ofi_events.c	478	Entering dynproc_done_event
+0	1	7f86c5113740[1869893]	2	0.112318	src/mpid/ch4/netmod/ofi/ofi_events.c	481	Leaving dynproc_done_event
+0	1	7f86c5113740[1869893]	2	0.112322	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	94	Leaving MPIDI_OFI_handle_cq_entries
+0	1	7f86c5113740[1869893]	2	0.112333	./src/mpid/ch4/netmod/include/../ofi/ofi_progress.h	139	Leaving MPIDI_NM_progress
+0	1	7f86c5113740[1869893]	2	0.112640	src/mpid/ch4/netmod/ofi/ofi_init.c	1168	Leaving destroy_vni_context
+0	1	7f86c5113740[1869893]	1	0.112725	src/mpid/common/genq/mpidu_genq_private_pool.c	83	Entering MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112732	src/mpid/common/genq/mpidu_genq_private_pool.c	97	Leaving MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	1	0.112736	src/mpid/common/genq/mpidu_genq_private_pool.c	83	Entering MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112740	src/mpid/common/genq/mpidu_genq_private_pool.c	97	Leaving MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	512	0.112743	src/mpid/ch4/netmod/ofi/ofi_init.c	916	About to destroy MPL_thread_mutex 0x7f86c80f7f80
+0	1	7f86c5113740[1869893]	512	0.112748	src/mpid/ch4/netmod/ofi/ofi_init.c	919	About to destroy MPL_thread_mutex 0x7f86c80f7fc0
+0	1	7f86c5113740[1869893]	512	0.112752	src/mpid/ch4/netmod/ofi/ofi_init.c	922	About to destroy MPL_thread_mutex 0x7f86c80f8000
+0	1	7f86c5113740[1869893]	512	0.112756	src/mpid/ch4/netmod/ofi/ofi_init.c	925	About to destroy MPL_thread_mutex 0x7f86c80f8040
+0	1	7f86c5113740[1869893]	2	0.112759	src/mpid/ch4/netmod/ofi/ofi_init.c	929	Leaving MPIDI_OFI_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112764	src/mpid/ch4/shm/src/shm_init.c	50	Entering MPIDI_SHM_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112768	src/mpid/ch4/shm/ipc/src/ipc_init.c	63	Entering MPIDI_IPC_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112772	src/mpid/ch4/shm/ipc/gpu/gpu_init.c	239	Entering MPIDI_GPU_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	2	0.112776	src/mpid/ch4/shm/ipc/gpu/gpu_init.c	290	Leaving MPIDI_GPU_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	2	0.112780	src/mpid/ch4/shm/ipc/src/ipc_init.c	77	Leaving MPIDI_IPC_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112784	src/mpid/ch4/shm/posix/posix_init.c	204	Entering MPIDI_POSIX_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112788	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_init.c	92	Entering MPIDI_POSIX_iqueue_finalize
+0	1	7f86c5113740[1869893]	1	0.112792	src/mpid/common/shm/mpidu_init_shm_alloc.c	151	Entering MPIDU_Init_shm_free
+0	1	7f86c5113740[1869893]	2	0.112802	src/mpid/common/shm/mpidu_init_shm_alloc.c	176	Leaving MPIDU_Init_shm_free
+0	1	7f86c5113740[1869893]	1	0.112807	src/mpid/common/genq/mpidu_genq_shmem_pool.c	115	Entering MPIDU_genq_shmem_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	1	0.112811	src/mpid/common/shm/mpidu_init_shm_alloc.c	151	Entering MPIDU_Init_shm_free
+0	1	7f86c5113740[1869893]	2	0.112837	src/mpid/common/shm/mpidu_init_shm_alloc.c	176	Leaving MPIDU_Init_shm_free
+0	1	7f86c5113740[1869893]	2	0.112842	src/mpid/common/genq/mpidu_genq_shmem_pool.c	124	Leaving MPIDU_genq_shmem_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112846	src/mpid/ch4/shm/posix/eager/iqueue/iqueue_init.c	99	Leaving MPIDI_POSIX_iqueue_finalize
+0	1	7f86c5113740[1869893]	1	0.112849	src/mpid/ch4/shm/posix/posix_init.c	268	Entering MPIDI_POSIX_coll_finalize
+0	1	7f86c5113740[1869893]	1	0.112853	src/mpid/common/shm/mpidu_init_shm_alloc.c	151	Entering MPIDU_Init_shm_free
+0	1	7f86c5113740[1869893]	2	0.112861	src/mpid/common/shm/mpidu_init_shm_alloc.c	176	Leaving MPIDU_Init_shm_free
+0	1	7f86c5113740[1869893]	2	0.112867	src/mpid/ch4/shm/posix/posix_init.c	285	Leaving MPIDI_POSIX_coll_finalize
+0	1	7f86c5113740[1869893]	1	0.112871	src/mpid/common/genq/mpidu_genq_private_pool.c	83	Entering MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112874	src/mpid/common/genq/mpidu_genq_private_pool.c	97	Leaving MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112878	src/mpid/ch4/shm/posix/posix_init.c	223	Leaving MPIDI_POSIX_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	2	0.112882	src/mpid/ch4/shm/src/shm_init.c	59	Leaving MPIDI_SHM_mpi_finalize_hook
+0	1	7f86c5113740[1869893]	1	0.112891	src/mpid/ch4/generic/am/mpidig_am_init.c	220	Entering MPIDIG_am_finalize
+0	1	7f86c5113740[1869893]	1	0.112901	src/mpid/common/genq/mpidu_genq_private_pool.c	83	Entering MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112917	src/mpid/common/genq/mpidu_genq_private_pool.c	97	Leaving MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	1	0.112922	src/mpid/common/genq/mpidu_genq_private_pool.c	83	Entering MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112926	src/mpid/common/genq/mpidu_genq_private_pool.c	97	Leaving MPIDU_genq_private_pool_destroy_unsafe
+0	1	7f86c5113740[1869893]	2	0.112930	src/mpid/ch4/generic/am/mpidig_am_init.c	226	Leaving MPIDIG_am_finalize
+0	1	7f86c5113740[1869893]	1	0.112934	src/mpid/ch4/src/ch4r_proc.c	188	Entering MPIDIU_avt_destroy
+0	1	7f86c5113740[1869893]	1	0.112938	src/mpid/ch4/src/ch4r_proc.c	143	Entering MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	4	0.112942	src/mpid/ch4/src/ch4r_proc.c	145	 decr avtid=0
+0	1	7f86c5113740[1869893]	2048	0.112948	src/mpid/ch4/src/ch4r_proc.c	146	decr 0x56081ab0d480 (0xc5486be0 kind=COMM) refcount to 0
+0	1	7f86c5113740[1869893]	1	0.112951	src/mpid/ch4/src/ch4r_proc.c	116	Entering MPIDIU_free_avt
+0	1	7f86c5113740[1869893]	2	0.112955	src/mpid/ch4/src/ch4r_proc.c	124	Leaving MPIDIU_free_avt
+0	1	7f86c5113740[1869893]	2	0.112959	src/mpid/ch4/src/ch4r_proc.c	151	Leaving MPIDIU_avt_release_ref
+0	1	7f86c5113740[1869893]	2	0.112963	src/mpid/ch4/src/ch4r_proc.c	199	Leaving MPIDIU_avt_destroy
+0	1	7f86c5113740[1869893]	1	0.112967	src/mpid/common/shm/mpidu_init_shm.c	224	Entering MPIDU_Init_shm_finalize
+0	1	7f86c5113740[1869893]	1	0.112971	src/mpid/common/shm/mpidu_init_shm.c	89	Entering Init_shm_barrier
+0	1	7f86c5113740[1869893]	2	0.113314	src/mpid/common/shm/mpidu_init_shm.c	108	Leaving Init_shm_barrier
+0	1	7f86c5113740[1869893]	2	0.113329	src/mpid/common/shm/mpidu_init_shm.c	245	Leaving MPIDU_Init_shm_finalize
+0	1	7f86c5113740[1869893]	512	0.113545	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f62f0
+0	1	7f86c5113740[1869893]	512	0.113552	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f6328
+0	1	7f86c5113740[1869893]	512	0.113557	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f6360
+0	1	7f86c5113740[1869893]	512	0.113562	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f6398
+0	1	7f86c5113740[1869893]	512	0.113566	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f63d0
+0	1	7f86c5113740[1869893]	512	0.113570	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f6408
+0	1	7f86c5113740[1869893]	512	0.113574	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f6440
+0	1	7f86c5113740[1869893]	512	0.113578	src/mpid/ch4/src/ch4_init.c	531	About to destroy MPL_thread_mutex 0x7f86c80f6478
+0	1	7f86c5113740[1869893]	512	0.113583	src/mpid/ch4/src/ch4_init.c	537	About to destroy MPL_thread_mutex 0x7f86c80f6520
+0	1	7f86c5113740[1869893]	2	0.113587	src/mpid/ch4/src/ch4_init.c	542	Leaving MPID_Finalize
+0	1	7f86c5113740[1869893]	2048	0.113613	src/mpi/datatype/typeutil.c	150	decr 0x7f86c80e86c0 (0x8c000000 kind=DATATYPE) refcount to 0
+0	1	7f86c5113740[1869893]	1024	0.113618	src/mpi/datatype/typeutil.c	568	type 8c000000 freed.
+0	1	7f86c5113740[1869893]	1	0.113622	src/mpid/ch4/src/ch4_init.c	854	Entering MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113627	src/mpid/ch4/shm/src/shm_hooks.c	72	Entering MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113631	src/mpid/ch4/shm/posix/posix_datatype.c	21	Entering MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113635	src/mpid/ch4/shm/posix/posix_datatype.c	23	Leaving MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113639	src/mpid/ch4/shm/src/shm_hooks.c	76	Leaving MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113643	src/mpid/ch4/src/ch4_init.c	864	Leaving MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113647	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	58	Entering MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2	0.113652	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	68	Leaving MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2048	0.113663	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80e86c0 (0x8c000000 kind=DATATYPE) refcount=0
+0	1	7f86c5113740[1869893]	2048	0.113668	src/mpi/datatype/typeutil.c	150	decr 0x7f86c80e87d8 (0x8c000001 kind=DATATYPE) refcount to 0
+0	1	7f86c5113740[1869893]	1024	0.113672	src/mpi/datatype/typeutil.c	568	type 8c000001 freed.
+0	1	7f86c5113740[1869893]	1	0.113677	src/mpid/ch4/src/ch4_init.c	854	Entering MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113681	src/mpid/ch4/shm/src/shm_hooks.c	72	Entering MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113685	src/mpid/ch4/shm/posix/posix_datatype.c	21	Entering MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113689	src/mpid/ch4/shm/posix/posix_datatype.c	23	Leaving MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113694	src/mpid/ch4/shm/src/shm_hooks.c	76	Leaving MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113698	src/mpid/ch4/src/ch4_init.c	864	Leaving MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113702	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	58	Entering MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2	0.113706	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	68	Leaving MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2048	0.113711	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80e87d8 (0x8c000001 kind=DATATYPE) refcount=0
+0	1	7f86c5113740[1869893]	2048	0.113716	src/mpi/datatype/typeutil.c	150	decr 0x7f86c80e88f0 (0x8c000002 kind=DATATYPE) refcount to 0
+0	1	7f86c5113740[1869893]	1024	0.113720	src/mpi/datatype/typeutil.c	568	type 8c000002 freed.
+0	1	7f86c5113740[1869893]	1	0.113724	src/mpid/ch4/src/ch4_init.c	854	Entering MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113728	src/mpid/ch4/shm/src/shm_hooks.c	72	Entering MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113732	src/mpid/ch4/shm/posix/posix_datatype.c	21	Entering MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113736	src/mpid/ch4/shm/posix/posix_datatype.c	23	Leaving MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113740	src/mpid/ch4/shm/src/shm_hooks.c	76	Leaving MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113744	src/mpid/ch4/src/ch4_init.c	864	Leaving MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113749	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	58	Entering MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2	0.113753	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	68	Leaving MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2048	0.113758	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80e88f0 (0x8c000002 kind=DATATYPE) refcount=0
+0	1	7f86c5113740[1869893]	2048	0.113762	src/mpi/datatype/typeutil.c	150	decr 0x7f86c80e8a08 (0x8c000003 kind=DATATYPE) refcount to 0
+0	1	7f86c5113740[1869893]	1024	0.113766	src/mpi/datatype/typeutil.c	568	type 8c000003 freed.
+0	1	7f86c5113740[1869893]	1	0.113770	src/mpid/ch4/src/ch4_init.c	854	Entering MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113774	src/mpid/ch4/shm/src/shm_hooks.c	72	Entering MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113779	src/mpid/ch4/shm/posix/posix_datatype.c	21	Entering MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113783	src/mpid/ch4/shm/posix/posix_datatype.c	23	Leaving MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113787	src/mpid/ch4/shm/src/shm_hooks.c	76	Leaving MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113791	src/mpid/ch4/src/ch4_init.c	864	Leaving MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113795	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	58	Entering MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2	0.113799	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	68	Leaving MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2048	0.113803	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80e8a08 (0x8c000003 kind=DATATYPE) refcount=0
+0	1	7f86c5113740[1869893]	2048	0.113807	src/mpi/datatype/typeutil.c	150	decr 0x7f86c80e8b20 (0x8c000004 kind=DATATYPE) refcount to 0
+0	1	7f86c5113740[1869893]	1024	0.113814	src/mpi/datatype/typeutil.c	568	type 8c000004 freed.
+0	1	7f86c5113740[1869893]	1	0.113818	src/mpid/ch4/src/ch4_init.c	854	Entering MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113822	src/mpid/ch4/shm/src/shm_hooks.c	72	Entering MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113826	src/mpid/ch4/shm/posix/posix_datatype.c	21	Entering MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113830	src/mpid/ch4/shm/posix/posix_datatype.c	23	Leaving MPIDI_POSIX_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113833	src/mpid/ch4/shm/src/shm_hooks.c	76	Leaving MPIDI_SHM_mpi_type_free_hook
+0	1	7f86c5113740[1869893]	2	0.113837	src/mpid/ch4/src/ch4_init.c	864	Leaving MPID_Type_free_hook
+0	1	7f86c5113740[1869893]	1	0.113841	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	58	Entering MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2	0.113845	src/mpi/datatype/typerep/src/typerep_yaksa_commit.c	68	Leaving MPIR_Typerep_free
+0	1	7f86c5113740[1869893]	2048	0.113849	./src/include/mpir_handlemem.h	398	Freeing object ptr 0x7f86c80e8b20 (0x8c000004 kind=DATATYPE) refcount=0
+0	1	7f86c5113740[1869893]	512	0.113967	src/mpi/init/mutex.c	90	About to destroy MPL_thread_mutex 0x7f86c80ee320
+0	1	7f86c5113740[1869893]	1	0.113974	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	444	Entering MPIR_Typerep_finalize
+0	1	7f86c5113740[1869893]	2	0.114049	src/mpi/datatype/typerep/src/typerep_yaksa_init.c	454	Leaving MPIR_Typerep_finalize
+0	1	7f86c5113740[1869893]	2	0.114056	src/binding/c/init/finalize.c	44	Leaving internal_Finalize
