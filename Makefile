@@ -1,34 +1,33 @@
 CC = gcc
 
-SRC_DIR = src/yaksa
-BUILD_DIR = build/yaksa
-BIN_DIR = bin/yaksa
+SRC_DIR = src
+BUILD_DIR = build
+BIN_DIR = bin
 
 TARGET = pack_unpack
 
-SRC_LIST = $(wildcard $(SRC_DIR)/*.c)
-OBJ_LIST = $(BUILD_DIR)/$(notdir $(SRC_LIST:.c=.o))
- 
+YAKSA_SRC_LIST = $(wildcard $(SRC_DIR)/yaksa/*.c)
+YAKSA_OBJ_LIST = $(BUILD_DIR)/yaksa/$(notdir $(YAKSA_SRC_LIST:.c=.o))
 
-INC_PATH = -I/home/tkoehring/Code/Yaksa/install/include
-LIB_PATH = -L/home/tkoehring/Code/Yaksa/install/lib
-LIB = -lyaksa
+YAKSA_INSTALL_PATH = $(HOME)/Code/Yaksa/install
+YAKSA_INC_PATH = -I$(YAKSA_INSTALL_PATH)/include
+YAKSA_LIB_PATH = -L$(YAKSA_INSTALL_PATH)/lib
 
-CFLAGS += $(INC_PATH)
-LDFLAGS += $(LIB_PATH)
+YAKSA_CFLAGS += $(YAKSA_INC_PATH)
+YAKSA_LDFLAGS += $(YAKSA_LIB_PATH)
+YAKSA_LIB = -lyaksa
 
-start: $(TARGET)
+yaksa: $(YAKSA_OBJ_LIST)
+	
+$(YAKSA_OBJ_LIST): $(YAKSA_SRC_LIST)
+	mkdir -p $(BUILD_DIR)/yaksa
+	$(CC) $(YAKSA_CFLAGS) -c $< -o $@
 
-$(TARGET): $(OBJ_LIST)
-	$(CC) $(CFLAGS) $^ -o $(BIN_DIR)/$@ $(LDFLAGS) $(LIB)
-
-$(OBJ_LIST): $(SRC_LIST)
-	$(CC) $(CFLAGS) -c $< -o $@
-
-.PHONY: install
-install:
-	echo "installing.."
+.PHONY: install_yaksa
+install_yaksa: $(YAKSA_OBJ_LIST)
+	mkdir -p $(BIN_DIR)/yaksa
+	$(CC) $(YAKSA_CFLAGS) $^ -o $(BIN_DIR)/yaksa/$(TARGET) $(YAKSA_LDFLAGS) $(YAKSA_LIB)
 
 .PHONY: clean
 clean:
-	rm -f $(BIN_DIR)/$(TARGET) $(BUILD_DIR)/*.o
+	rm -rf $(BIN_DIR) $(BUILD_DIR)
