@@ -34,21 +34,11 @@ int main()
         memcpy_times[i] = memcpy_pack_unpack(buf_counts[i]);
     }
 
-    printf("## Yaksa Times ##\n");
-    printf("Buf Counts\t\tTime(us)\n");
-
     for(int i = 0; i < NUM_SIZES; i++)
     {
-        printf("%-10d\t\t%f\n", buf_counts[i], yaksa_times[i]*1000000);
-    }
-    
-    printf("\n");
-
-    printf("## Memcpy Times ##\n");
-    printf("Buf Counts\t\tTime(us)\n");
-    for(int i = 0; i < NUM_SIZES; i++)
-    {
-        printf("%-10d\t\t%f\n", buf_counts[i], memcpy_times[i]*1000000);
+        printf("%d,%.10f,%.10f\n", buf_counts[i],
+                                    yaksa_times[i],
+                                    memcpy_times[i]);
     }
 
     yaksa_finalize();

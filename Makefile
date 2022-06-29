@@ -13,7 +13,7 @@ YAKSA_INSTALL_PATH = $(HOME)/Code/Yaksa/install
 YAKSA_INC_PATH = -I$(YAKSA_INSTALL_PATH)/include
 YAKSA_LIB_PATH = -L$(YAKSA_INSTALL_PATH)/lib
 
-YAKSA_CFLAGS += $(YAKSA_INC_PATH)
+YAKSA_CFLAGS =
 YAKSA_LDFLAGS += $(YAKSA_LIB_PATH)
 YAKSA_LIB = -lyaksa
 
@@ -21,12 +21,12 @@ yaksa: $(YAKSA_OBJ_LIST)
 	
 $(YAKSA_OBJ_LIST): $(YAKSA_SRC_LIST)
 	mkdir -p $(BUILD_DIR)/yaksa
-	$(CC) $(YAKSA_CFLAGS) -c $< -o $@
+	$(CC) $(YAKSA_CFLAGS) $(YAKSA_INC_PATH) -c $< -o $@
 
 .PHONY: install_yaksa
 install_yaksa: $(YAKSA_OBJ_LIST)
 	mkdir -p $(BIN_DIR)/yaksa
-	$(CC) $(YAKSA_CFLAGS) $^ -o $(BIN_DIR)/yaksa/$(TARGET) $(YAKSA_LDFLAGS) $(YAKSA_LIB)
+	$(CC) $^ -o $(BIN_DIR)/yaksa/$(TARGET) $(YAKSA_LDFLAGS) $(YAKSA_LIB)
 
 .PHONY: clean
 clean:

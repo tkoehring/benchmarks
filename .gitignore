@@ -7,4 +7,7 @@
 *.exe
 *.ELF
 
+# Swap
+*.swp
+
 
