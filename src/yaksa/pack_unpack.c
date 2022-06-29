@@ -31,12 +31,12 @@ int main()
     for(int i = 0; i < NUM_SIZES; i++)
     {
         yaksa_times[i] = pack_unpack(buf_counts[i]);
-
         memcpy_times[i] = memcpy_pack_unpack(buf_counts[i]);
     }
 
     printf("## Yaksa Times ##\n");
     printf("Buf Counts\t\tTime(us)\n");
+
     for(int i = 0; i < NUM_SIZES; i++)
     {
         printf("%-10d\t\t%f\n", buf_counts[i], yaksa_times[i]*1000000);
