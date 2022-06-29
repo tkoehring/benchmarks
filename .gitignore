@@ -1,0 +1,10 @@
+# Object Files
+*.o
+*.obj
+
+# Executable
+*.out
+*.exe
+*.ELF
+
+
