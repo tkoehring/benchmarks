@@ -10,4 +10,5 @@
 # Swap
 *.swp
 
-
+# Directories
+results/
