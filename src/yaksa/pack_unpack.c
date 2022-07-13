@@ -1,28 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <time.h>
 #include <assert.h>
 #include <string.h>
 
+#include <cuda_runtime_api.h>
+
 #include "yaksa.h"
 
+#define RUNS 100
 #define NUM_SIZES 27
-#define CONTIG_TYPE YAKSA_TYPE__INT
 
+void parse_arguments(int, char**);
 double pack_unpack(int);
+void *create_buf(int);
+void free_buf(void*);
 
-int main()
+//Set by -g flag, use a gpu buffer
+int _gpu = 0;
+
+int main(int argc, char **argv)
 {
     const int buf_counts[] = {0, 1, 2, 4, 8, 16, 32, 64, 128, 256,
                               512, 1024, 2048, 4096, 8192, 16384,
                               32768, 65536, 131072, 262144, 524288,
                               1048576, 2097152, 4194304, 8388608,
                               16777216, 33554432};
-    double yaksa_times[NUM_SIZES];
-    double memcpy_times[NUM_SIZES];
 
+    double yaksa_times[NUM_SIZES];
     double yaksa_avg;
-    double memcpy_avg;
 
     yaksa_init(NULL);
     srand(time(NULL));
@@ -42,64 +49,92 @@ int main()
     return 0;
 }
 
+void parse_arguments(int argc, char **argv){
+    int opt;
+    while((opt = getopt (argc, argv, "g")) != -1){
+        switch(opt){
+            case 'g':
+                _gpu = 1;             
+        }
+    }
+}
+
 double pack_unpack(int buf_count)
 {
     int rc;
-    int runs;
-    int buf_size = buf_count * sizeof(int);
-    int *input = (int*)malloc(buf_size);
-    int *pack_buf = (int*)malloc(buf_size);
-    int *unpack_buf = (int*)malloc(buf_size);
     yaksa_info_t yaksa_info = NULL;
     yaksa_request_t request;
     yaksa_type_t contig = YAKSA_TYPE__INT;
     uintptr_t actual_pack_bytes;
     uintptr_t actual_unpack_bytes;
+
+    int buf_size = buf_count * sizeof(int);
+
+    int *input = (int*)create_buf(buf_size);
+    int *pack_buf = (int*)create_buf(buf_size);
+    int *unpack_buf = (int*)create_buf(buf_size);
+
     double total_time = 0.0;
 
-    /* Create random buffer */
+    /* Populate input buffer */
     for(int i=0; i < buf_count; i++)
     {
         input[i] = rand();    
     }
     
-    //Do 1000 runs for messages < 1MB and 100 for greater
-    if(buf_count > 262144){
-        runs = 100;
-    }else{
-        runs = 1000;
-    }
-
-    for(int i = 0; i < runs; i++)
+    for(int i = 0; i < RUNS; i++)
     {
+        //Start timer
         clock_t begin = clock();
 
-        /* start packing */
-        rc = yaksa_ipack(input, buf_count, contig, 0,
+        //Start packing
+        rc = yaksa_ipack(input, buf_count, YAKSA_TYPE__INT, 0,
                         pack_buf, buf_size, &actual_pack_bytes, yaksa_info,
                         YAKSA_OP__REPLACE, &request);
         assert(rc == YAKSA_SUCCESS);
 
-        /* wait for packing to complete */
+        //Wait for packing to complete
         rc = yaksa_request_wait(request);
         assert(rc == YAKSA_SUCCESS);
 
-        /* start unpacking */
-        rc = yaksa_iunpack(pack_buf, buf_size, unpack_buf, buf_count, contig, 0,
-                           &actual_unpack_bytes, yaksa_info,
-                           YAKSA_OP__REPLACE, &request);
+        //Start unpacking
+        rc = yaksa_iunpack(pack_buf, buf_size, unpack_buf, buf_count,
+                           YAKSA_TYPE__INT, 0, &actual_unpack_bytes,
+                           yaksa_info, YAKSA_OP__REPLACE, &request);
         assert(rc == YAKSA_SUCCESS);
 
-        /* wait for unpacking to complete */
+        //Wait for unpacking to complete
         rc = yaksa_request_wait(request);
         assert(rc == YAKSA_SUCCESS);
+
+        //Stop timer
         clock_t end = clock();
         total_time += (double)(end - begin) / CLOCKS_PER_SEC;
     }
 
-    free(input);
-    free(pack_buf);
-    free(unpack_buf);
+    free_buf(input);
+    free_buf(pack_buf);
+    free_buf(unpack_buf);
 
-    return total_time / runs;
+    return total_time / RUNS;
+}
+
+void *create_buf(int buf_size){
+
+    if(_gpu){
+        void *buf;
+        (void*)cudaMalloc((void**)&buf, buf_size);
+        return buf;
+    } else {
+        return (void*)malloc(buf_size);
+    }
+}
+
+void free_buf(void *buf){
+    
+    if(_gpu){
+        cudaFree(buf);
+    } else {
+        free(buf);
+    }
 }
