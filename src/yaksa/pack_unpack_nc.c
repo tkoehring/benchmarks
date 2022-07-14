@@ -13,13 +13,12 @@
 #define BUF_SIZE BUF_COUNT * sizeof(int)
 #define DATA_TYPE YAKSA_TYPE__INT
 #define NUM_SIZES 27
-#define RUNS 100
 
-double pack_unpack_nc(int*, int*, int*, int, int, int);
+int pack_unpack_nc(int*, int*, int*, int, int, int);
 
 int main()
 {
-    double yaksa_times[NUM_SIZES];
+    int yaksa_times[NUM_SIZES];
     double yaksa_avg;
 
     int *input = (int*)malloc(BUF_SIZE);
@@ -47,7 +46,7 @@ int main()
 
     for(int i = 0; i < NUM_SIZES; i++)
     {
-        printf("%d,%.10f\n", counts[i], yaksa_times[i]);
+        printf("%d,%d\n", counts[i], yaksa_times[i]);
     }
 
     yaksa_finalize();
@@ -57,7 +56,7 @@ int main()
     return 0;
 }
 
-double pack_unpack_nc(int *input, int *pack_buf, int *unpack_buf,
+int pack_unpack_nc(int *input, int *pack_buf, int *unpack_buf,
                       int count, int block_length, int stride)
 {
     int rc;
@@ -66,7 +65,7 @@ double pack_unpack_nc(int *input, int *pack_buf, int *unpack_buf,
     yaksa_type_t vector;
     uintptr_t actual_pack_bytes, actual_unpack_bytes;
     double total_time = 0.0;
-    int runs = RUNS;
+    int runs = 100;
 
     rc = yaksa_type_create_vector(count, block_length, stride,
                                   DATA_TYPE, NULL, &vector);
@@ -95,9 +94,9 @@ double pack_unpack_nc(int *input, int *pack_buf, int *unpack_buf,
         assert(rc == YAKSA_SUCCESS);
 
         clock_t end = clock();
-        total_time += (double)(end - begin) / CLOCKS_PER_SEC;
+        total_time += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
     }
 
     yaksa_type_free(vector);
-    return total_time / runs;
+    return (int)total_time / runs;
 }

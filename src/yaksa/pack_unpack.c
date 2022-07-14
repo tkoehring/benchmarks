@@ -11,12 +11,15 @@
 #define NUM_SIZES 27
 
 void parse_arguments(int, char**);
-double pack_unpack(int);
-void *create_buf(int);
-void free_buf(void*);
+int pack_unpack(int);
+void *create_buf(int, int);
+void free_buf(void*, int);
 
-//Set by -g flag. Use a gpu buffer
-int _gpu = 0;
+//Set by the -i flag. H for host buffer, G for device buffer. Host as default
+int _input_gpu = 0;
+
+//Set by the -o flag. H for host buffer, G for device buffer. Host as default
+int _output_gpu = 0;
 
 //Set by -r <val> flag. Indicates how many runs to perform
 int _runs = 0;
@@ -31,7 +34,7 @@ int main(int argc, char **argv)
 
     int num_sizes = (log(_size) / log(2) + 2);
     int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
-    double *yaksa_times = (double*)malloc(sizeof(double) * num_sizes);
+    int *yaksa_times = (int*)malloc(sizeof(int) * num_sizes);
     double yaksa_avg;
 
     buf_counts[0] = 0;
@@ -52,7 +55,7 @@ int main(int argc, char **argv)
 
     for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d,%.10f\n", buf_counts[i], yaksa_times[i]);
+        printf("%d,%d\n", buf_counts[i], yaksa_times[i]);
     }
 
     free(buf_counts);
@@ -64,15 +67,21 @@ int main(int argc, char **argv)
 
 void parse_arguments(int argc, char **argv){
     int opt;
-    while((opt = getopt (argc, argv, "gM:r:")) != -1){
+    while((opt = getopt (argc, argv, "i:M:o:r:")) != -1){
         switch(opt){
-            case 'g':
-                _gpu = 1;
+            case 'i':
+                if(*optarg == 'D'){
+                    _input_gpu = 1;
+                }
                 break;
             case 'M':
                 // Multiply the number of bytes in 1 MB
                 _size = atoi(optarg) * 1048576;
                 break;
+            case 'o':
+                if(*optarg == 'D'){
+                    _output_gpu = 1;
+                }
             case'r':
                 _runs = atoi(optarg);
                 break;
@@ -90,7 +99,7 @@ void parse_arguments(int argc, char **argv){
     }
 }
 
-double pack_unpack(int buf_count)
+int pack_unpack(int buf_count)
 {
     int rc;
     yaksa_info_t yaksa_info = NULL;
@@ -101,9 +110,9 @@ double pack_unpack(int buf_count)
 
     int buf_size = buf_count * sizeof(int);
 
-    int *input = (int*)create_buf(buf_size);
-    int *pack_buf = (int*)create_buf(buf_size);
-    int *unpack_buf = (int*)create_buf(buf_size);
+    int *input = (int*)create_buf(buf_size, _input_gpu);
+    int *pack_buf = (int*)create_buf(buf_size, _output_gpu);
+    int *unpack_buf = (int*)create_buf(buf_size, _output_gpu);
 
     double total_time = 0.0;
 
@@ -122,7 +131,7 @@ double pack_unpack(int buf_count)
         rc = yaksa_request_wait(request);
         assert(rc == YAKSA_SUCCESS);
         //Start unpacking
-        rc = yaksa_iunpack(pack_buf, buf_size, unpack_buf, buf_count,
+        rc = yaksa_iunpack(input, buf_size, unpack_buf, buf_count,
                            YAKSA_TYPE__INT, 0, &actual_unpack_bytes,
                            yaksa_info, YAKSA_OP__REPLACE, &request);
         assert(rc == YAKSA_SUCCESS);
@@ -132,18 +141,18 @@ double pack_unpack(int buf_count)
         assert(rc == YAKSA_SUCCESS);
         //Stop timer
         clock_t end = clock();
-        total_time += (double)(end - begin) / CLOCKS_PER_SEC;
+        total_time += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
     }
 
-    free_buf(input);
-    free_buf(pack_buf);
-    free_buf(unpack_buf);
+    free_buf(input, _input_gpu);
+    free_buf(pack_buf, _output_gpu);
+    free_buf(unpack_buf, _output_gpu);
 
-    return total_time / _runs;
+    return (int)total_time / _runs;
 }
 
-void *create_buf(int buf_size){
-    if(_gpu){
+void *create_buf(int buf_size, int gpu){
+    if(gpu){
         void *buf;
         (void*)cudaMalloc((void**)&buf, buf_size);
         return buf;
@@ -152,8 +161,8 @@ void *create_buf(int buf_size){
     }
 }
 
-void free_buf(void *buf){
-    if(_gpu){
+void free_buf(void *buf, int gpu){
+    if(gpu){
         cudaFree(buf);
         return;
     } else {

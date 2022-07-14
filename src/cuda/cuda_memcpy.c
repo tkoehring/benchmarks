@@ -3,10 +3,11 @@
 #include <time.h>
 #include <assert.h>
 #include <string.h>
+#include <cuda_runtime_api.h>
 
 #define NUM_SIZES 27
 
-int memcpy_pack_unpack(int);
+int cuda_memcpy_pack_unpack(int);
 
 int main()
 {
@@ -22,7 +23,7 @@ int main()
 
     for(int i = 0; i < NUM_SIZES; i++)
     {
-        memcpy_times[i] = memcpy_pack_unpack(buf_counts[i]);
+        memcpy_times[i] = cuda_memcpy_pack_unpack(buf_counts[i]);
     }
 
     for(int i = 0; i < NUM_SIZES; i++)
@@ -33,29 +34,31 @@ int main()
     return 0;
 }
 
-int memcpy_pack_unpack(int buf_count)
+int cuda_memcpy_pack_unpack(int buf_count)
 {
     int runs = 100;
-    int buf_size = buf_count * sizeof(int);
-    int *input = (int*)malloc(buf_size);
-    int *pack_buf = (int*)malloc(buf_size);
-    int *unpack_buf = (int*)malloc(buf_size);
     double total_time = 0;
+    int buf_size = buf_count * sizeof(int);
+    int *input, *pack_buf, *unpack_buf;
+
+    input = (int*)malloc(buf_size);
+    cudaMalloc((void**)&pack_buf, buf_size);
+    cudaMalloc((void**)&unpack_buf, buf_size);
 
     for(int i = 0; i < runs; i++)
     {
         clock_t begin = clock();
 
-        memcpy(pack_buf, input, buf_size);
-        memcpy(unpack_buf, input, buf_size);
+        cudaMemcpy(pack_buf, input, buf_size, cudaMemcpyHostToDevice);
+        cudaMemcpy(unpack_buf, pack_buf, buf_size, cudaMemcpyDeviceToHost);
 
         clock_t end = clock();
         total_time += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
     }
 
-    free(input);
-    free(pack_buf);
-    free(unpack_buf);
+    cudaFree(input);
+    cudaFree(pack_buf);
+    cudaFree(unpack_buf);
 
     return (int)total_time / runs;
 }
