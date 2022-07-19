@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <math.h>
 #include <time.h>
 #include <assert.h>
 #include <string.h>
-#include <math.h>
 #include <cuda_runtime_api.h>
 #include "yaksa.h"
 
-#define NUM_SIZES 27
-
 void parse_arguments(int, char**);
-int pack_unpack(int);
+void pack_unpack(int, int*, int*);
 void *create_buf(int, int);
 void free_buf(void*, int);
 
@@ -34,7 +32,8 @@ int main(int argc, char **argv)
 
     int num_sizes = (log(_size) / log(2) + 2);
     int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
-    int *yaksa_times = (int*)malloc(sizeof(int) * num_sizes);
+    int *yaksa_pack_times = (int*)malloc(sizeof(int) * num_sizes);
+    int *yaksa_unpack_times = (int*)malloc(sizeof(int) * num_sizes);
     double yaksa_avg;
 
     buf_counts[0] = 0;
@@ -44,22 +43,28 @@ int main(int argc, char **argv)
         buf_counts[i] = (2 << (i - 2));
     }
 
-
     yaksa_init(NULL);
     srand(time(NULL));
 
     for(int i = 0; i < num_sizes; i++)
     {
-        yaksa_times[i] = pack_unpack(buf_counts[i]);
+        pack_unpack(buf_counts[i],
+                    &(yaksa_pack_times[i]),
+                    &(yaksa_unpack_times[i]));
     }
+
+    printf("Memory (Bytes), yaksa_ipack (us), yaksa_iunpack (us)\n");
 
     for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d,%d\n", buf_counts[i], yaksa_times[i]);
+        printf("%d, %d, %d\n", buf_counts[i],
+                          yaksa_pack_times[i],
+                          yaksa_unpack_times[i]);
     }
 
     free(buf_counts);
-    free(yaksa_times);
+    free(yaksa_pack_times);
+    free(yaksa_unpack_times);
     yaksa_finalize();
 
     return 0;
@@ -82,6 +87,7 @@ void parse_arguments(int argc, char **argv){
                 if(*optarg == 'D'){
                     _output_gpu = 1;
                 }
+                break;
             case'r':
                 _runs = atoi(optarg);
                 break;
@@ -99,7 +105,7 @@ void parse_arguments(int argc, char **argv){
     }
 }
 
-int pack_unpack(int buf_count)
+void pack_unpack(int buf_count, int *pack_time, int *unpack_time)
 {
     int rc;
     yaksa_info_t yaksa_info = NULL;
@@ -109,19 +115,17 @@ int pack_unpack(int buf_count)
     uintptr_t actual_unpack_bytes;
 
     int buf_size = buf_count * sizeof(int);
-
     int *input = (int*)create_buf(buf_size, _input_gpu);
     int *pack_buf = (int*)create_buf(buf_size, _output_gpu);
     int *unpack_buf = (int*)create_buf(buf_size, _output_gpu);
 
-    double total_time = 0.0;
+    double pack_total = 0.0f, unpack_total = 0.0f;
+    clock_t begin, end;
 
     for(int i = 0; i < _runs; i++)
     {
-        //Start timer
-        clock_t begin = clock();
-
         //Start packing
+        begin = clock();
         rc = yaksa_ipack(input, buf_count, YAKSA_TYPE__INT, 0,
                         pack_buf, buf_size, &actual_pack_bytes, yaksa_info,
                         YAKSA_OP__REPLACE, &request);
@@ -130,7 +134,11 @@ int pack_unpack(int buf_count)
         //Wait for packing to complete
         rc = yaksa_request_wait(request);
         assert(rc == YAKSA_SUCCESS);
+        end = clock();
+        pack_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
+            
         //Start unpacking
+        begin = clock();
         rc = yaksa_iunpack(input, buf_size, unpack_buf, buf_count,
                            YAKSA_TYPE__INT, 0, &actual_unpack_bytes,
                            yaksa_info, YAKSA_OP__REPLACE, &request);
@@ -139,16 +147,16 @@ int pack_unpack(int buf_count)
         //Wait for unpacking to complete
         rc = yaksa_request_wait(request);
         assert(rc == YAKSA_SUCCESS);
-        //Stop timer
-        clock_t end = clock();
-        total_time += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
+        end = clock();
+        unpack_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
     }
+
+    *pack_time = pack_total / _runs;
+    *unpack_time = unpack_total / _runs;
 
     free_buf(input, _input_gpu);
     free_buf(pack_buf, _output_gpu);
     free_buf(unpack_buf, _output_gpu);
-
-    return (int)total_time / _runs;
 }
 
 void *create_buf(int buf_size, int gpu){

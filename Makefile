@@ -1,4 +1,4 @@
-CC=gcc-7
+CC=gcc
 NVCC=nvcc
 
 SRC_DIR=src
@@ -17,15 +17,21 @@ YAKSA_SRC_LIST=$(wildcard $(SRC_DIR)/yaksa/*.c)
 YAKSA_OBJ_LIST=$(patsubst %.c, $(BUILD_DIR)/yaksa/%.o, $(notdir $(YAKSA_SRC_LIST)))
 YAKSA_TARGET_LIST=$(patsubst %.o, $(BIN_DIR)/yaksa/%, $(notdir $(YAKSA_OBJ_LIST)))
 
+## CHANGE ME
+## These variables need to be manually changed to match your yaksa installation
+## location
 YAKSA_INSTALL_PATH=$(HOME)/Code/Yaksa/install
 YAKSA_INC_PATH=-I$(YAKSA_INSTALL_PATH)/include
 YAKSA_LIB_PATH=-L$(YAKSA_INSTALL_PATH)/lib
 
+## CHANGE ME
+## These variables need to be manually changed to match your cuda installation
+## location
 CUDA_INSTALL_PATH=/usr/local/cuda
 CUDA_INC_PATH=-I$(CUDA_INSTALL_PATH)/include
 CUDA_LIB_PATH=-L$(CUDA_INSTALL_PATH)/lib
 
-CFLAGS=-O2
+CFLAGS=
 INC_PATH += $(YAKSA_INC_PATH)
 INC_PATH += $(CUDA_INC_PATH)
 LIB_PATH += $(YAKSA_LIB_PATH)
@@ -68,7 +74,7 @@ install: $(GNU_TARGET_LIST) $(CUDA_TARGET_LIST) $(YAKSA_TARGET_LIST)
 
 $(BIN_DIR)/gnu/%: $(BUILD_DIR)/gnu/%.o
 	@mkdir -p $(BIN_DIR)/gnu
-	$(CC) $< -o $@
+	$(CC) $< -o $@ -lm
 
 $(BIN_DIR)/cuda/%: $(BUILD_DIR)/cuda/%.o
 	@mkdir -p $(BIN_DIR)/cuda

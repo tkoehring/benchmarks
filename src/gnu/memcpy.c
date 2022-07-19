@@ -1,61 +1,100 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <math.h>
 #include <time.h>
 #include <assert.h>
 #include <string.h>
 
-#define NUM_SIZES 27
+//Set by -r <val> flag. Indicates how many runs to perform
+int _runs = 0;
 
-int memcpy_pack_unpack(int);
+//Set by the -M <val> flag. Indicates how big the buffers should be. Argument
+//asks for size in megabytes, then converted to bytes
+int _size = 0;
 
-int main()
+void parse_arguments(int, char**);
+int memcpy_benchmark(int);
+
+int main(int argc, char **argv)
 {
-    const int buf_counts[] = {0, 1, 2, 4, 8, 16, 32, 64, 128, 256,
-                              512, 1024, 2048, 4096, 8192, 16384,
-                              32768, 65536, 131072, 262144, 524288,
-                              1048576, 2097152, 4194304, 8388608,
-                              16777216, 33554432};
-    int memcpy_times[NUM_SIZES];
-    double memcpy_avg;
+    parse_arguments(argc, argv);
 
+    int num_sizes = (log(_size) / log(2) + 2);
+    int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
+    int *memcpy_times = (int*)malloc(sizeof(int) * num_sizes);
+    double memcpy_avg;
+    
     srand(time(NULL));
 
-    for(int i = 0; i < NUM_SIZES; i++)
-    {
-        memcpy_times[i] = memcpy_pack_unpack(buf_counts[i]);
+    buf_counts[0] = 0;
+    buf_counts[1] = 1;
+
+    for(int i = 2; i < num_sizes; i++){
+        buf_counts[i] = (2 << (i - 2));
     }
 
-    for(int i = 0; i < NUM_SIZES; i++)
+    for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d,%d\n", buf_counts[i], memcpy_times[i]);
+        memcpy_times[i] = memcpy_benchmark(buf_counts[i]);
     }
 
+    printf("Memory (Bytes), memcpy (us)\n");
+
+    for(int i = 0; i < num_sizes; i++)
+    {
+        printf("%d, %d\n", buf_counts[i], memcpy_times[i]);
+    }
+
+    free(buf_counts);
+    free(memcpy_times);
     return 0;
 }
 
-int memcpy_pack_unpack(int buf_count)
+void parse_arguments(int argc, char **argv){
+    int opt;
+    while((opt = getopt (argc, argv, "M:r:")) != -1){
+        switch(opt){
+            case 'M':
+                // Multiply the number of bytes in 1 MB
+                _size = atoi(optarg) * 1048576;
+                break;
+            case'r':
+                _runs = atoi(optarg);
+                break;
+        }
+    }
+
+    //Set default value to 1MB
+    if(_size <= 0){
+        _size = 1048576;
+    }
+
+    //Default case for _runs
+    if(_runs <= 0){
+       _runs = 100;
+    }
+}
+
+int memcpy_benchmark(int buf_count)
 {
-    int runs = 100;
     int buf_size = buf_count * sizeof(int);
     int *input = (int*)malloc(buf_size);
-    int *pack_buf = (int*)malloc(buf_size);
-    int *unpack_buf = (int*)malloc(buf_size);
+    int *output = (int*)malloc(buf_size);
     double total_time = 0;
 
-    for(int i = 0; i < runs; i++)
+    for(int i = 0; i < _runs; i++)
     {
         clock_t begin = clock();
 
-        memcpy(pack_buf, input, buf_size);
-        memcpy(unpack_buf, input, buf_size);
+        memcpy(output, input, buf_size);
 
         clock_t end = clock();
         total_time += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
     }
 
     free(input);
-    free(pack_buf);
-    free(unpack_buf);
+    free(output);
 
-    return (int)total_time / runs;
+    return (int)total_time / _runs;
 }

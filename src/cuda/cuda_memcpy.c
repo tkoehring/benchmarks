@@ -1,64 +1,128 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <math.h>
 #include <time.h>
 #include <assert.h>
 #include <string.h>
 #include <cuda_runtime_api.h>
 
-#define NUM_SIZES 27
+//Set by -r <val> flag. Indicates how many runs to perform
+int _runs = 0;
 
-int cuda_memcpy_pack_unpack(int);
+//Set by the -M <val> flag. Indicates how big the buffers should be. Argument
+//asks for size in megabytes, then converted to bytes
+int _size = 0;
 
-int main()
+void parse_arguments(int, char**);
+void cuda_memcpy_benchmark(int, int*, int*, int*);
+
+int main(int argc, char **argv)
 {
-    const int buf_counts[] = {0, 1, 2, 4, 8, 16, 32, 64, 128, 256,
-                              512, 1024, 2048, 4096, 8192, 16384,
-                              32768, 65536, 131072, 262144, 524288,
-                              1048576, 2097152, 4194304, 8388608,
-                              16777216, 33554432};
-    int memcpy_times[NUM_SIZES];
+    parse_arguments(argc, argv);
+
+    int num_sizes = (log(_size) / log(2) + 2);
+    int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
+    int *hd_times = (int*)malloc(sizeof(int) * num_sizes);
+    int *dd_times = (int*)malloc(sizeof(int) * num_sizes);
+    int *dh_times = (int*)malloc(sizeof(int) * num_sizes);
     double memcpy_avg;
 
     srand(time(NULL));
 
-    for(int i = 0; i < NUM_SIZES; i++)
-    {
-        memcpy_times[i] = cuda_memcpy_pack_unpack(buf_counts[i]);
+    buf_counts[0] = 0;
+    buf_counts[1] = 1;
+
+    for(int i = 2; i < num_sizes; i++){
+        buf_counts[i] = (2 << (i - 2));
     }
 
-    for(int i = 0; i < NUM_SIZES; i++)
+    for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d,%d\n", buf_counts[i], memcpy_times[i]);
+        cuda_memcpy_benchmark(buf_counts[i],
+                              &(hd_times[i]),
+                              &(dd_times[i]),
+                              &(dh_times[i]));
     }
+
+    printf("Memory (Bytes), HostToDevice (us), DeviceToHost (us), DeviceToDevice(us)\n");
+
+    for(int i = 0; i < num_sizes; i++)
+    {
+        printf("%d, %d, %d, %d\n", buf_counts[i],
+                                   hd_times[i],
+                                   dh_times[i],
+                                   dd_times[i]);
+    }
+
+    free(buf_counts);
+    free(hd_times);
+    free(dd_times);
+    free(dh_times);
 
     return 0;
 }
 
-int cuda_memcpy_pack_unpack(int buf_count)
+void parse_arguments(int argc, char **argv){
+    int opt;
+    while((opt = getopt (argc, argv, "M:r:")) != -1){
+        switch(opt){
+            case 'M':
+                // Multiply the number of bytes in 1 MB
+                _size = atoi(optarg) * 1048576;
+                break;
+            case'r':
+                _runs = atoi(optarg);
+                break;
+        }
+    }
+
+    //Set default value to 1MB
+    if(_size <= 0){
+        _size = 1048576;
+    }
+
+    //Default case for _runs
+    if(_runs <= 0){
+       _runs = 100;
+    }
+}
+
+void cuda_memcpy_benchmark(int buf_count,
+                          int *hd_time, int *dd_time, int *dh_time)
 {
-    int runs = 100;
-    double total_time = 0;
+    double hd_total = 0.0f, dd_total = 0.0f, dh_total = 0.0f;
     int buf_size = buf_count * sizeof(int);
     int *input, *pack_buf, *unpack_buf;
+    clock_t begin, end;
 
     input = (int*)malloc(buf_size);
     cudaMalloc((void**)&pack_buf, buf_size);
     cudaMalloc((void**)&unpack_buf, buf_size);
 
-    for(int i = 0; i < runs; i++)
+    for(int i = 0; i < _runs; i++)
     {
-        clock_t begin = clock();
+            begin = clock();
+            cudaMemcpy(pack_buf, input, buf_size, cudaMemcpyHostToDevice);
+            end = clock();
+            hd_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
 
-        cudaMemcpy(pack_buf, input, buf_size, cudaMemcpyHostToDevice);
-        cudaMemcpy(unpack_buf, pack_buf, buf_size, cudaMemcpyDeviceToHost);
+            begin = clock();
+            cudaMemcpy(unpack_buf, pack_buf, buf_size, cudaMemcpyDeviceToDevice);
+            end = clock();
+            dd_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
 
-        clock_t end = clock();
-        total_time += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
+            begin = clock();
+            cudaMemcpy(input, unpack_buf, buf_size, cudaMemcpyDeviceToHost);
+            end = clock();
+            dh_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
     }
+
+    *hd_time = hd_total / _runs;
+    *dd_time = dd_total / _runs;
+    *dh_time = dh_total / _runs;
 
     cudaFree(input);
     cudaFree(pack_buf);
     cudaFree(unpack_buf);
-
-    return (int)total_time / runs;
 }
