@@ -10,7 +10,7 @@
 
 void parse_arguments(int, char**);
 void warmup();
-void pack_unpack(int, int*, int*);
+void pack_unpack(int, double*, double*);
 void *create_buf(int, int);
 void free_buf(void*, int);
 
@@ -33,8 +33,8 @@ int main(int argc, char **argv)
 
     int num_sizes = (log(_size) / log(2) + 2);
     int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
-    int *yaksa_pack_times = (int*)malloc(sizeof(int) * num_sizes);
-    int *yaksa_unpack_times = (int*)malloc(sizeof(int) * num_sizes);
+    double *yaksa_pack_times = (double*)malloc(sizeof(double) * num_sizes);
+    double *yaksa_unpack_times = (double*)malloc(sizeof(double) * num_sizes);
     double yaksa_avg;
 
     buf_counts[0] = 0;
@@ -60,7 +60,7 @@ int main(int argc, char **argv)
 
     for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d, %d, %d\n", buf_counts[i],
+        printf("%d, %.3f, %.3f\n", buf_counts[i],
                           yaksa_pack_times[i],
                           yaksa_unpack_times[i]);
     }
@@ -146,7 +146,7 @@ void warmup(){
     }
 }
 
-void pack_unpack(int buf_count, int *pack_time, int *unpack_time)
+void pack_unpack(int buf_count, double *pack_time, double *unpack_time)
 {
     int rc;
     yaksa_info_t yaksa_info = NULL;

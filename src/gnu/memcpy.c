@@ -14,7 +14,7 @@ int _runs = 0;
 int _size = 0;
 
 void parse_arguments(int, char**);
-int memcpy_benchmark(int);
+double memcpy_benchmark(int);
 
 int main(int argc, char **argv)
 {
@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 
     int num_sizes = (log(_size) / log(2) + 2);
     int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
-    int *memcpy_times = (int*)malloc(sizeof(int) * num_sizes);
+    double *memcpy_times = (double*)malloc(sizeof(double) * num_sizes);
     double memcpy_avg;
     
     srand(time(NULL));
@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 
     for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d, %d\n", buf_counts[i], memcpy_times[i]);
+        printf("%d, %.3f\n", buf_counts[i], memcpy_times[i]);
     }
 
     free(buf_counts);
@@ -76,7 +76,7 @@ void parse_arguments(int argc, char **argv){
     }
 }
 
-int memcpy_benchmark(int buf_count)
+double memcpy_benchmark(int buf_count)
 {
     int buf_size = buf_count * sizeof(int);
     int *input = (int*)malloc(buf_size);
@@ -96,5 +96,5 @@ int memcpy_benchmark(int buf_count)
     free(input);
     free(output);
 
-    return (int)total_time / _runs;
+    return total_time / _runs;
 }

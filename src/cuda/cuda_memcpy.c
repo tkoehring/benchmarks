@@ -15,7 +15,7 @@ int _runs = 0;
 int _size = 0;
 
 void parse_arguments(int, char**);
-void cuda_memcpy_benchmark(int, int*, int*, int*);
+void cuda_memcpy_benchmark(int, double*, double*, double*);
 
 int main(int argc, char **argv)
 {
@@ -23,9 +23,9 @@ int main(int argc, char **argv)
 
     int num_sizes = (log(_size) / log(2) + 2);
     int *buf_counts = (int*)malloc(sizeof(int) * num_sizes);
-    int *hd_times = (int*)malloc(sizeof(int) * num_sizes);
-    int *dd_times = (int*)malloc(sizeof(int) * num_sizes);
-    int *dh_times = (int*)malloc(sizeof(int) * num_sizes);
+    double *hd_times = (double*)malloc(sizeof(double) * num_sizes);
+    double *dd_times = (double*)malloc(sizeof(double) * num_sizes);
+    double *dh_times = (double*)malloc(sizeof(double) * num_sizes);
     double memcpy_avg;
 
     srand(time(NULL));
@@ -49,7 +49,7 @@ int main(int argc, char **argv)
 
     for(int i = 0; i < num_sizes; i++)
     {
-        printf("%d, %d, %d, %d\n", buf_counts[i],
+        printf("%d, %.3f, %.3f, %.3f\n", buf_counts[i],
                                    hd_times[i],
                                    dh_times[i],
                                    dd_times[i]);
@@ -89,7 +89,7 @@ void parse_arguments(int argc, char **argv){
 }
 
 void cuda_memcpy_benchmark(int buf_count,
-                          int *hd_time, int *dd_time, int *dh_time)
+                          double *hd_time, double *dd_time, double *dh_time)
 {
     double hd_total = 0.0f, dd_total = 0.0f, dh_total = 0.0f;
     int buf_size = buf_count * sizeof(int);
@@ -105,17 +105,17 @@ void cuda_memcpy_benchmark(int buf_count,
             begin = clock();
             cudaMemcpy(pack_buf, input, buf_size, cudaMemcpyHostToDevice);
             end = clock();
-            hd_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
+            hd_total += (end - begin) / (double)CLOCKS_PER_SEC * 1000000.0f;
 
             begin = clock();
             cudaMemcpy(unpack_buf, pack_buf, buf_size, cudaMemcpyDeviceToDevice);
             end = clock();
-            dd_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
+            dd_total += (end - begin) / (double)CLOCKS_PER_SEC * 1000000.0f;
 
             begin = clock();
             cudaMemcpy(input, unpack_buf, buf_size, cudaMemcpyDeviceToHost);
             end = clock();
-            dh_total += (double)(end - begin) / CLOCKS_PER_SEC * 1000000;
+            dh_total += (end - begin) / (double)CLOCKS_PER_SEC * 1000000.0f;
     }
 
     *hd_time = hd_total / _runs;
