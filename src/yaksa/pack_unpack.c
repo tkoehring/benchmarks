@@ -9,6 +9,7 @@
 #include "yaksa.h"
 
 void parse_arguments(int, char**);
+void warmup();
 void pack_unpack(int, int*, int*);
 void *create_buf(int, int);
 void free_buf(void*, int);
@@ -45,6 +46,8 @@ int main(int argc, char **argv)
 
     yaksa_init(NULL);
     srand(time(NULL));
+
+    warmup();
 
     for(int i = 0; i < num_sizes; i++)
     {
@@ -102,6 +105,44 @@ void parse_arguments(int argc, char **argv){
     //Default case for _runs
     if(_runs <= 0){
        _runs = 100;
+    }
+}
+
+// Warmup loop of 100 runs for a 1 byte message size
+void warmup(){
+    int rc;
+    yaksa_info_t yaksa_info = NULL;
+    yaksa_request_t request;
+    yaksa_type_t contig = YAKSA_TYPE__INT;
+    uintptr_t actual_pack_bytes;
+    uintptr_t actual_unpack_bytes;
+    int buf_count = 1;
+    int buf_size = buf_count * sizeof(int);
+    int *input = (int*)create_buf(buf_size, _input_gpu);
+    int *pack_buf = (int*)create_buf(buf_size, _output_gpu);
+    int *unpack_buf = (int*)create_buf(buf_size, _output_gpu);
+
+    for(int i = 0; i < 100; i++)
+    {
+        //Start packing
+        rc = yaksa_ipack(input, buf_count, YAKSA_TYPE__INT, 0,
+                        pack_buf, buf_size, &actual_pack_bytes, yaksa_info,
+                        YAKSA_OP__REPLACE, &request);
+        assert(rc == YAKSA_SUCCESS);
+
+        //Wait for packing to complete
+        rc = yaksa_request_wait(request);
+        assert(rc == YAKSA_SUCCESS);
+            
+        //Start unpacking
+        rc = yaksa_iunpack(input, buf_size, unpack_buf, buf_count,
+                           YAKSA_TYPE__INT, 0, &actual_unpack_bytes,
+                           yaksa_info, YAKSA_OP__REPLACE, &request);
+        assert(rc == YAKSA_SUCCESS);
+
+        //Wait for unpacking to complete
+        rc = yaksa_request_wait(request);
+        assert(rc == YAKSA_SUCCESS);
     }
 }
 
