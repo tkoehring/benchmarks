@@ -76,8 +76,8 @@ tar xvf osu-micro-benchmarks-5.9.tar.gz
 
 ```
 ./configure CC=$MPICH_INSTALL/bin/mpicc CXX=$MPICH_INSTALL/bin/mpicxx \
---enable-cuda --with-cuda-include=$CUDA_DIR/include --with-cuda- \
-libpath=$CUDA_DIR/lib64 --prefix=$OSU_INSTALL
+--enable-cuda --with-cuda-include=$CUDA_DIR/include 
+--with-cuda-libpath=$CUDA_DIR/lib64 --prefix=$OSU_INSTALL
 make -j8
 make install -j8
 ```
