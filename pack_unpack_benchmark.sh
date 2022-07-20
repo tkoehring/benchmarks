@@ -10,20 +10,20 @@ for VERSION in ${CC_VERSION[@]}; do
 
         if [[ "$VERSION" == "4.8" ]]
         then
-            FLAGS="$OPTIMIZATION -std=c99"
+            # add functionality to add c99 flag
         else
             FLAGS="$OPTIMIZATION"
         fi
 
-        make CC=$CC-$VERSION YAKSA_CFLAGS="$FLAGS" yaksa
-        make CC=$CC-$VERSION YAKSA_CFLAGS="$FLAGS" install_yaksa
-        ./bin/yaksa/pack_unpack > results/pack_unpack-$VERSION$OPTIMIZATION.data
+        make CC=$CC-$VERSION CFLAGS="$FLAGS" all
+        make CC=$CC-$VERSION CFLAGS="$FLAGS" install
+        ./bin/yaksa/pack_unpack -r 100 -M 32 -i H -o H > results/pack_unpack-$VERSION$OPTIMIZATION.data
         make clean
 
         DEBUG="$FLAGS -DNDEBUG"
-        make CC=$CC-$VERSION YAKSA_CFLAGS="$DEBUG" yaksa
-        make CC=$CC-$VERSION YAKSA_CFLAGS="$DEBUG" install_yaksa
-        ./bin/yaksa/pack_unpack > results/pack_unpack-$VERSION$OPTIMIZATION-NDEBUG.data
+        make CC=$CC-$VERSION CFLAGS="$DEBUG" all
+        make CC=$CC-$VERSION CFLAGS="$DEBUG" install
+        ./bin/yaksa/pack_unpack -r 100 -M 32 -i H -o H > results/pack_unpack-$VERSION$OPTIMIZATION-NDEBUG.data
         make clean
     done
 done
