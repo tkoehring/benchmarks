@@ -39,6 +39,7 @@ syntax enable
 set ai
 set si
 colorscheme iceberg
+set background=dark
 
 inoremap {<CR> {<CR>}<Esc>ko
 inoremap [<CR> [<CR>]<Esc>ko
